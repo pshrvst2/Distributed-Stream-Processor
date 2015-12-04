@@ -1,0 +1,1195 @@
+[INFO ] 2015-12-03 14:32:14,850 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 14:32:19,850 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449174739850
+[INFO ] 2015-12-03 14:32:19,850 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 14:32:19,852 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 14:32:19,864 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 14:32:19,872 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174739872 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 14:32:19,874 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 14:32:19,875 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:32:20,372 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174740372 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 14:32:20,872 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174740872 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 14:32:21,372 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174741372 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 14:32:21,872 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174741872 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 14:32:22,372 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174742372 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 14:32:22,872 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174742872 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 14:32:23,372 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174743372 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 14:32:23,872 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174743872 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 14:32:24,372 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174744372 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 14:32:24,872 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174744872 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 14:32:24,874 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 14:32:24,875 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:32:24,881 Node.class main User want to list the current members
+[INFO ] 2015-12-03 14:32:24,882 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 14:32:24,882 Node.class main 130.126.28.9:1449174739850	||	1449174744872	||	12		||	true
+[INFO ] 2015-12-03 14:32:25,372 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174745372 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 14:32:25,872 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174745872 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 14:32:25,977 Node.class main User want to list the current members
+[INFO ] 2015-12-03 14:32:25,977 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 14:32:25,977 Node.class main 130.126.28.9:1449174739850	||	1449174745872	||	14		||	true
+[INFO ] 2015-12-03 14:32:26,372 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174746372 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 14:32:26,657 Node.class main User want to list the current members
+[INFO ] 2015-12-03 14:32:26,657 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 14:32:26,658 Node.class main 130.126.28.9:1449174739850	||	1449174746372	||	15		||	true
+[INFO ] 2015-12-03 14:32:26,872 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174746872 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 14:32:27,372 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174747372 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 14:32:27,682 Node.class main 130.126.28.9:1449174739850	||	1449174747372	||	17	||	true
+[INFO ] 2015-12-03 14:32:27,872 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174747872 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 14:32:28,372 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174748372 || heartbeat: 19 || status: true
+[INFO ] 2015-12-03 14:32:28,872 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174748872 || heartbeat: 20 || status: true
+[INFO ] 2015-12-03 14:32:29,372 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174749372 || heartbeat: 21 || status: true
+[INFO ] 2015-12-03 14:32:29,872 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174749872 || heartbeat: 22 || status: true
+[INFO ] 2015-12-03 14:32:29,874 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 14:32:29,875 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:32:30,372 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174750372 || heartbeat: 23 || status: true
+[INFO ] 2015-12-03 14:32:30,872 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174750872 || heartbeat: 24 || status: true
+[INFO ] 2015-12-03 14:32:31,372 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449174739850 || time stamp: 1449174751372 || heartbeat: 25 || status: true
+[INFO ] 2015-12-03 14:32:31,505 Node.class main Good Bye!
+[INFO ] 2015-12-03 14:49:17,262 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 14:49:18,506 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449175758506
+[INFO ] 2015-12-03 14:49:18,507 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 14:49:18,509 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 14:49:18,526 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 14:49:18,532 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175758531 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 14:49:18,534 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 14:49:18,534 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:49:19,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175759031 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 14:49:19,378 Node.class main User want to list the current members
+[INFO ] 2015-12-03 14:49:19,378 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 14:49:19,378 Node.class main 130.126.28.9:1449175758506	||	1449175759031	||	3		||	true
+[INFO ] 2015-12-03 14:49:19,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175759531 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 14:49:20,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175760031 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 14:49:20,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175760531 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 14:49:21,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175761031 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 14:49:21,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175761531 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 14:49:22,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175762031 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 14:49:22,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175762531 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 14:49:23,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175763031 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 14:49:23,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175763531 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 14:49:23,534 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 14:49:23,534 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:49:24,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175764031 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 14:49:24,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175764531 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 14:49:25,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175765031 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 14:49:25,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175765531 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 14:49:26,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175766031 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 14:49:26,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175766531 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 14:49:27,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175767031 || heartbeat: 19 || status: true
+[INFO ] 2015-12-03 14:49:27,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175767531 || heartbeat: 20 || status: true
+[INFO ] 2015-12-03 14:49:28,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175768031 || heartbeat: 21 || status: true
+[INFO ] 2015-12-03 14:49:28,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175768531 || heartbeat: 22 || status: true
+[INFO ] 2015-12-03 14:49:28,534 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 14:49:28,534 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:49:29,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175769031 || heartbeat: 23 || status: true
+[INFO ] 2015-12-03 14:49:29,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175769531 || heartbeat: 24 || status: true
+[INFO ] 2015-12-03 14:49:30,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175770031 || heartbeat: 25 || status: true
+[INFO ] 2015-12-03 14:49:30,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175770531 || heartbeat: 26 || status: true
+[INFO ] 2015-12-03 14:49:31,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175771031 || heartbeat: 27 || status: true
+[INFO ] 2015-12-03 14:49:31,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175771531 || heartbeat: 28 || status: true
+[INFO ] 2015-12-03 14:49:32,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175772031 || heartbeat: 29 || status: true
+[INFO ] 2015-12-03 14:49:32,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175772531 || heartbeat: 30 || status: true
+[INFO ] 2015-12-03 14:49:33,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175773031 || heartbeat: 31 || status: true
+[INFO ] 2015-12-03 14:49:33,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175773531 || heartbeat: 32 || status: true
+[INFO ] 2015-12-03 14:49:33,534 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 14:49:33,534 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:49:34,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175774031 || heartbeat: 33 || status: true
+[INFO ] 2015-12-03 14:49:34,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175774531 || heartbeat: 34 || status: true
+[INFO ] 2015-12-03 14:49:35,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175775031 || heartbeat: 35 || status: true
+[INFO ] 2015-12-03 14:49:35,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175775531 || heartbeat: 36 || status: true
+[INFO ] 2015-12-03 14:49:36,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175776031 || heartbeat: 37 || status: true
+[INFO ] 2015-12-03 14:49:36,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175776531 || heartbeat: 38 || status: true
+[INFO ] 2015-12-03 14:49:37,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175777031 || heartbeat: 39 || status: true
+[INFO ] 2015-12-03 14:49:37,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175777531 || heartbeat: 40 || status: true
+[INFO ] 2015-12-03 14:49:38,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175778031 || heartbeat: 41 || status: true
+[INFO ] 2015-12-03 14:49:38,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175778531 || heartbeat: 42 || status: true
+[INFO ] 2015-12-03 14:49:38,534 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 14:49:38,534 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:49:39,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175779031 || heartbeat: 43 || status: true
+[INFO ] 2015-12-03 14:49:39,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175779531 || heartbeat: 44 || status: true
+[INFO ] 2015-12-03 14:49:40,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175780031 || heartbeat: 45 || status: true
+[INFO ] 2015-12-03 14:49:40,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175780531 || heartbeat: 46 || status: true
+[INFO ] 2015-12-03 14:49:41,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175781031 || heartbeat: 47 || status: true
+[INFO ] 2015-12-03 14:49:41,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175781531 || heartbeat: 48 || status: true
+[INFO ] 2015-12-03 14:49:42,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175782031 || heartbeat: 49 || status: true
+[INFO ] 2015-12-03 14:49:42,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175782531 || heartbeat: 50 || status: true
+[INFO ] 2015-12-03 14:49:43,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175783031 || heartbeat: 51 || status: true
+[INFO ] 2015-12-03 14:49:43,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175783531 || heartbeat: 52 || status: true
+[INFO ] 2015-12-03 14:49:43,534 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 14:49:43,534 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:49:44,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175784031 || heartbeat: 53 || status: true
+[INFO ] 2015-12-03 14:49:44,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175784531 || heartbeat: 54 || status: true
+[INFO ] 2015-12-03 14:49:45,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175785031 || heartbeat: 55 || status: true
+[INFO ] 2015-12-03 14:49:45,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175785531 || heartbeat: 56 || status: true
+[INFO ] 2015-12-03 14:49:46,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175786031 || heartbeat: 57 || status: true
+[INFO ] 2015-12-03 14:49:46,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175786531 || heartbeat: 58 || status: true
+[INFO ] 2015-12-03 14:49:47,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175787031 || heartbeat: 59 || status: true
+[INFO ] 2015-12-03 14:49:47,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175787531 || heartbeat: 60 || status: true
+[INFO ] 2015-12-03 14:49:48,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175788031 || heartbeat: 61 || status: true
+[INFO ] 2015-12-03 14:49:48,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175788531 || heartbeat: 62 || status: true
+[INFO ] 2015-12-03 14:49:48,534 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 14:49:48,534 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:49:49,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175789031 || heartbeat: 63 || status: true
+[INFO ] 2015-12-03 14:49:49,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175789531 || heartbeat: 64 || status: true
+[INFO ] 2015-12-03 14:49:50,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175790031 || heartbeat: 65 || status: true
+[INFO ] 2015-12-03 14:49:50,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175790531 || heartbeat: 66 || status: true
+[INFO ] 2015-12-03 14:49:51,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175791031 || heartbeat: 67 || status: true
+[INFO ] 2015-12-03 14:49:51,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175791531 || heartbeat: 68 || status: true
+[INFO ] 2015-12-03 14:49:52,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175792031 || heartbeat: 69 || status: true
+[INFO ] 2015-12-03 14:49:52,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175792531 || heartbeat: 70 || status: true
+[INFO ] 2015-12-03 14:49:53,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175793031 || heartbeat: 71 || status: true
+[INFO ] 2015-12-03 14:49:53,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175793531 || heartbeat: 72 || status: true
+[INFO ] 2015-12-03 14:49:53,534 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 14:49:53,534 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:49:54,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175794031 || heartbeat: 73 || status: true
+[INFO ] 2015-12-03 14:49:54,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175794531 || heartbeat: 74 || status: true
+[INFO ] 2015-12-03 14:49:55,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175795031 || heartbeat: 75 || status: true
+[INFO ] 2015-12-03 14:49:55,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175795531 || heartbeat: 76 || status: true
+[INFO ] 2015-12-03 14:49:56,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175796031 || heartbeat: 77 || status: true
+[INFO ] 2015-12-03 14:49:56,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175796531 || heartbeat: 78 || status: true
+[INFO ] 2015-12-03 14:49:57,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175797031 || heartbeat: 79 || status: true
+[INFO ] 2015-12-03 14:49:57,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175797531 || heartbeat: 80 || status: true
+[INFO ] 2015-12-03 14:49:58,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175798031 || heartbeat: 81 || status: true
+[INFO ] 2015-12-03 14:49:58,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175798531 || heartbeat: 82 || status: true
+[INFO ] 2015-12-03 14:49:58,534 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 14:49:58,534 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:49:59,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175799031 || heartbeat: 83 || status: true
+[INFO ] 2015-12-03 14:49:59,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175799531 || heartbeat: 84 || status: true
+[INFO ] 2015-12-03 14:50:00,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175800031 || heartbeat: 85 || status: true
+[INFO ] 2015-12-03 14:50:00,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175800531 || heartbeat: 86 || status: true
+[INFO ] 2015-12-03 14:50:01,037 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175801031 || heartbeat: 87 || status: true
+[INFO ] 2015-12-03 14:50:01,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175801531 || heartbeat: 88 || status: true
+[INFO ] 2015-12-03 14:50:02,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175802031 || heartbeat: 89 || status: true
+[INFO ] 2015-12-03 14:50:02,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175802531 || heartbeat: 90 || status: true
+[INFO ] 2015-12-03 14:50:03,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175803031 || heartbeat: 91 || status: true
+[INFO ] 2015-12-03 14:50:03,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175803531 || heartbeat: 92 || status: true
+[INFO ] 2015-12-03 14:50:03,534 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:03,534 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:04,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175804031 || heartbeat: 93 || status: true
+[INFO ] 2015-12-03 14:50:04,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175804531 || heartbeat: 94 || status: true
+[INFO ] 2015-12-03 14:50:05,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175805031 || heartbeat: 95 || status: true
+[INFO ] 2015-12-03 14:50:05,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175805531 || heartbeat: 96 || status: true
+[INFO ] 2015-12-03 14:50:06,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175806031 || heartbeat: 97 || status: true
+[INFO ] 2015-12-03 14:50:06,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175806531 || heartbeat: 98 || status: true
+[INFO ] 2015-12-03 14:50:07,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175807031 || heartbeat: 99 || status: true
+[INFO ] 2015-12-03 14:50:07,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175807531 || heartbeat: 100 || status: true
+[INFO ] 2015-12-03 14:50:08,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175808031 || heartbeat: 101 || status: true
+[INFO ] 2015-12-03 14:50:08,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175808531 || heartbeat: 102 || status: true
+[INFO ] 2015-12-03 14:50:08,534 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:08,534 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:09,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175809031 || heartbeat: 103 || status: true
+[INFO ] 2015-12-03 14:50:09,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175809531 || heartbeat: 104 || status: true
+[INFO ] 2015-12-03 14:50:10,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175810031 || heartbeat: 105 || status: true
+[INFO ] 2015-12-03 14:50:10,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175810531 || heartbeat: 106 || status: true
+[INFO ] 2015-12-03 14:50:11,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175811031 || heartbeat: 107 || status: true
+[INFO ] 2015-12-03 14:50:11,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175811531 || heartbeat: 108 || status: true
+[INFO ] 2015-12-03 14:50:12,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175812031 || heartbeat: 109 || status: true
+[INFO ] 2015-12-03 14:50:12,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175812531 || heartbeat: 110 || status: true
+[INFO ] 2015-12-03 14:50:13,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175813031 || heartbeat: 111 || status: true
+[INFO ] 2015-12-03 14:50:13,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175813531 || heartbeat: 112 || status: true
+[INFO ] 2015-12-03 14:50:13,534 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:13,534 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:14,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175814031 || heartbeat: 113 || status: true
+[INFO ] 2015-12-03 14:50:14,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175814531 || heartbeat: 114 || status: true
+[INFO ] 2015-12-03 14:50:15,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175815031 || heartbeat: 115 || status: true
+[INFO ] 2015-12-03 14:50:15,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175815531 || heartbeat: 116 || status: true
+[INFO ] 2015-12-03 14:50:16,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175816031 || heartbeat: 117 || status: true
+[INFO ] 2015-12-03 14:50:16,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175816531 || heartbeat: 118 || status: true
+[INFO ] 2015-12-03 14:50:17,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175817031 || heartbeat: 119 || status: true
+[INFO ] 2015-12-03 14:50:17,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175817531 || heartbeat: 120 || status: true
+[INFO ] 2015-12-03 14:50:18,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175818031 || heartbeat: 121 || status: true
+[INFO ] 2015-12-03 14:50:18,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175818531 || heartbeat: 122 || status: true
+[INFO ] 2015-12-03 14:50:18,534 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:18,534 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:19,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175819031 || heartbeat: 123 || status: true
+[INFO ] 2015-12-03 14:50:19,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175819531 || heartbeat: 124 || status: true
+[INFO ] 2015-12-03 14:50:20,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175820031 || heartbeat: 125 || status: true
+[INFO ] 2015-12-03 14:50:20,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175820531 || heartbeat: 126 || status: true
+[INFO ] 2015-12-03 14:50:21,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175821031 || heartbeat: 127 || status: true
+[INFO ] 2015-12-03 14:50:21,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175821531 || heartbeat: 128 || status: true
+[INFO ] 2015-12-03 14:50:22,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175822031 || heartbeat: 129 || status: true
+[INFO ] 2015-12-03 14:50:22,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175822531 || heartbeat: 130 || status: true
+[INFO ] 2015-12-03 14:50:23,031 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175823031 || heartbeat: 131 || status: true
+[INFO ] 2015-12-03 14:50:23,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175823531 || heartbeat: 132 || status: true
+[INFO ] 2015-12-03 14:50:23,534 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:23,534 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:24,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175824031 || heartbeat: 133 || status: true
+[INFO ] 2015-12-03 14:50:24,531 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175824531 || heartbeat: 134 || status: true
+[INFO ] 2015-12-03 14:50:25,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175825031 || heartbeat: 135 || status: true
+[INFO ] 2015-12-03 14:50:28,534 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:28,810 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175828810 || heartbeat: 136 || status: true
+[INFO ] 2015-12-03 14:50:28,810 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175828810 || heartbeat: 137 || status: true
+[INFO ] 2015-12-03 14:50:28,810 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175828810 || heartbeat: 138 || status: true
+[INFO ] 2015-12-03 14:50:28,810 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175828810 || heartbeat: 139 || status: true
+[INFO ] 2015-12-03 14:50:28,811 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175828811 || heartbeat: 140 || status: true
+[INFO ] 2015-12-03 14:50:28,811 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175828811 || heartbeat: 141 || status: true
+[INFO ] 2015-12-03 14:50:28,811 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175828811 || heartbeat: 142 || status: true
+[INFO ] 2015-12-03 14:50:28,811 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:29,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175829031 || heartbeat: 143 || status: true
+[INFO ] 2015-12-03 14:50:29,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175829531 || heartbeat: 144 || status: true
+[INFO ] 2015-12-03 14:50:30,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175830031 || heartbeat: 145 || status: true
+[INFO ] 2015-12-03 14:50:30,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175830531 || heartbeat: 146 || status: true
+[INFO ] 2015-12-03 14:50:31,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175831031 || heartbeat: 147 || status: true
+[INFO ] 2015-12-03 14:50:31,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175831531 || heartbeat: 148 || status: true
+[INFO ] 2015-12-03 14:50:32,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175832031 || heartbeat: 149 || status: true
+[INFO ] 2015-12-03 14:50:32,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175832531 || heartbeat: 150 || status: true
+[INFO ] 2015-12-03 14:50:33,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175833031 || heartbeat: 151 || status: true
+[INFO ] 2015-12-03 14:50:33,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175833531 || heartbeat: 152 || status: true
+[INFO ] 2015-12-03 14:50:33,534 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:33,534 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:34,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175834031 || heartbeat: 153 || status: true
+[INFO ] 2015-12-03 14:50:34,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175834531 || heartbeat: 154 || status: true
+[INFO ] 2015-12-03 14:50:35,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175835031 || heartbeat: 155 || status: true
+[INFO ] 2015-12-03 14:50:35,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175835531 || heartbeat: 156 || status: true
+[INFO ] 2015-12-03 14:50:36,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175836031 || heartbeat: 157 || status: true
+[INFO ] 2015-12-03 14:50:36,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175836531 || heartbeat: 158 || status: true
+[INFO ] 2015-12-03 14:50:37,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175837031 || heartbeat: 159 || status: true
+[INFO ] 2015-12-03 14:50:37,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175837531 || heartbeat: 160 || status: true
+[INFO ] 2015-12-03 14:50:38,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175838031 || heartbeat: 161 || status: true
+[INFO ] 2015-12-03 14:50:38,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175838531 || heartbeat: 162 || status: true
+[INFO ] 2015-12-03 14:50:38,534 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:38,534 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:39,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175839031 || heartbeat: 163 || status: true
+[INFO ] 2015-12-03 14:50:39,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175839531 || heartbeat: 164 || status: true
+[INFO ] 2015-12-03 14:50:40,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175840031 || heartbeat: 165 || status: true
+[INFO ] 2015-12-03 14:50:40,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175840531 || heartbeat: 166 || status: true
+[INFO ] 2015-12-03 14:50:41,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175841031 || heartbeat: 167 || status: true
+[INFO ] 2015-12-03 14:50:41,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175841531 || heartbeat: 168 || status: true
+[INFO ] 2015-12-03 14:50:42,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175842031 || heartbeat: 169 || status: true
+[INFO ] 2015-12-03 14:50:42,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175842531 || heartbeat: 170 || status: true
+[INFO ] 2015-12-03 14:50:43,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175843031 || heartbeat: 171 || status: true
+[INFO ] 2015-12-03 14:50:43,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175843531 || heartbeat: 172 || status: true
+[INFO ] 2015-12-03 14:50:43,534 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:43,534 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:44,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175844031 || heartbeat: 173 || status: true
+[INFO ] 2015-12-03 14:50:44,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175844531 || heartbeat: 174 || status: true
+[INFO ] 2015-12-03 14:50:45,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175845031 || heartbeat: 175 || status: true
+[INFO ] 2015-12-03 14:50:45,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175845531 || heartbeat: 176 || status: true
+[INFO ] 2015-12-03 14:50:46,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175846031 || heartbeat: 177 || status: true
+[INFO ] 2015-12-03 14:50:46,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175846531 || heartbeat: 178 || status: true
+[INFO ] 2015-12-03 14:50:47,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175847031 || heartbeat: 179 || status: true
+[INFO ] 2015-12-03 14:50:47,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175847531 || heartbeat: 180 || status: true
+[INFO ] 2015-12-03 14:50:48,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175848031 || heartbeat: 181 || status: true
+[INFO ] 2015-12-03 14:50:48,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175848531 || heartbeat: 182 || status: true
+[INFO ] 2015-12-03 14:50:48,534 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:48,534 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:49,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175849031 || heartbeat: 183 || status: true
+[INFO ] 2015-12-03 14:50:49,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175849531 || heartbeat: 184 || status: true
+[INFO ] 2015-12-03 14:50:50,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175850031 || heartbeat: 185 || status: true
+[INFO ] 2015-12-03 14:50:50,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175850531 || heartbeat: 186 || status: true
+[INFO ] 2015-12-03 14:50:51,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175851031 || heartbeat: 187 || status: true
+[INFO ] 2015-12-03 14:50:51,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175851531 || heartbeat: 188 || status: true
+[INFO ] 2015-12-03 14:50:52,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175852031 || heartbeat: 189 || status: true
+[INFO ] 2015-12-03 14:50:52,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175852531 || heartbeat: 190 || status: true
+[INFO ] 2015-12-03 14:50:53,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175853031 || heartbeat: 191 || status: true
+[INFO ] 2015-12-03 14:50:53,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175853531 || heartbeat: 192 || status: true
+[INFO ] 2015-12-03 14:50:53,534 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:53,534 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:54,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175854031 || heartbeat: 193 || status: true
+[INFO ] 2015-12-03 14:50:54,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175854531 || heartbeat: 194 || status: true
+[INFO ] 2015-12-03 14:50:55,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175855031 || heartbeat: 195 || status: true
+[INFO ] 2015-12-03 14:50:55,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175855531 || heartbeat: 196 || status: true
+[INFO ] 2015-12-03 14:50:56,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175856031 || heartbeat: 197 || status: true
+[INFO ] 2015-12-03 14:50:56,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175856531 || heartbeat: 198 || status: true
+[INFO ] 2015-12-03 14:50:57,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175857031 || heartbeat: 199 || status: true
+[INFO ] 2015-12-03 14:50:57,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175857531 || heartbeat: 200 || status: true
+[INFO ] 2015-12-03 14:50:58,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175858031 || heartbeat: 201 || status: true
+[INFO ] 2015-12-03 14:50:58,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175858531 || heartbeat: 202 || status: true
+[INFO ] 2015-12-03 14:50:58,534 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 14:50:58,534 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:50:59,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175859031 || heartbeat: 203 || status: true
+[INFO ] 2015-12-03 14:50:59,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175859531 || heartbeat: 204 || status: true
+[INFO ] 2015-12-03 14:51:00,032 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175860032 || heartbeat: 205 || status: true
+[INFO ] 2015-12-03 14:51:00,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175860531 || heartbeat: 206 || status: true
+[INFO ] 2015-12-03 14:51:01,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175861031 || heartbeat: 207 || status: true
+[INFO ] 2015-12-03 14:51:01,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175861531 || heartbeat: 208 || status: true
+[INFO ] 2015-12-03 14:51:02,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175862031 || heartbeat: 209 || status: true
+[INFO ] 2015-12-03 14:51:02,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175862531 || heartbeat: 210 || status: true
+[INFO ] 2015-12-03 14:51:03,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175863031 || heartbeat: 211 || status: true
+[INFO ] 2015-12-03 14:51:03,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175863531 || heartbeat: 212 || status: true
+[INFO ] 2015-12-03 14:51:03,534 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 14:51:03,534 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:51:04,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175864031 || heartbeat: 213 || status: true
+[INFO ] 2015-12-03 14:51:04,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175864531 || heartbeat: 214 || status: true
+[INFO ] 2015-12-03 14:51:05,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175865031 || heartbeat: 215 || status: true
+[INFO ] 2015-12-03 14:51:05,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175865531 || heartbeat: 216 || status: true
+[INFO ] 2015-12-03 14:51:06,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175866031 || heartbeat: 217 || status: true
+[INFO ] 2015-12-03 14:51:06,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175866531 || heartbeat: 218 || status: true
+[INFO ] 2015-12-03 14:51:07,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175867031 || heartbeat: 219 || status: true
+[INFO ] 2015-12-03 14:51:07,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175867531 || heartbeat: 220 || status: true
+[INFO ] 2015-12-03 14:51:08,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175868031 || heartbeat: 221 || status: true
+[INFO ] 2015-12-03 14:51:08,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175868531 || heartbeat: 222 || status: true
+[INFO ] 2015-12-03 14:51:08,534 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 14:51:08,534 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:51:09,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175869031 || heartbeat: 223 || status: true
+[INFO ] 2015-12-03 14:51:09,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175869531 || heartbeat: 224 || status: true
+[INFO ] 2015-12-03 14:51:10,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175870031 || heartbeat: 225 || status: true
+[INFO ] 2015-12-03 14:51:10,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175870531 || heartbeat: 226 || status: true
+[INFO ] 2015-12-03 14:51:11,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175871031 || heartbeat: 227 || status: true
+[INFO ] 2015-12-03 14:51:11,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175871531 || heartbeat: 228 || status: true
+[INFO ] 2015-12-03 14:51:12,036 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175872036 || heartbeat: 229 || status: true
+[INFO ] 2015-12-03 14:51:12,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175872531 || heartbeat: 230 || status: true
+[INFO ] 2015-12-03 14:51:13,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175873031 || heartbeat: 231 || status: true
+[INFO ] 2015-12-03 14:51:13,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175873531 || heartbeat: 232 || status: true
+[INFO ] 2015-12-03 14:51:13,534 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 14:51:13,534 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:51:14,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175874031 || heartbeat: 233 || status: true
+[INFO ] 2015-12-03 14:51:14,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175874531 || heartbeat: 234 || status: true
+[INFO ] 2015-12-03 14:51:15,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175875031 || heartbeat: 235 || status: true
+[INFO ] 2015-12-03 14:51:15,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175875531 || heartbeat: 236 || status: true
+[INFO ] 2015-12-03 14:51:16,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175876031 || heartbeat: 237 || status: true
+[INFO ] 2015-12-03 14:51:16,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175876531 || heartbeat: 238 || status: true
+[INFO ] 2015-12-03 14:51:17,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175877031 || heartbeat: 239 || status: true
+[INFO ] 2015-12-03 14:51:17,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175877531 || heartbeat: 240 || status: true
+[INFO ] 2015-12-03 14:51:18,031 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175878031 || heartbeat: 241 || status: true
+[INFO ] 2015-12-03 14:51:18,531 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175878531 || heartbeat: 242 || status: true
+[INFO ] 2015-12-03 14:51:18,534 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 14:51:18,534 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 14:51:19,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175879031 || heartbeat: 243 || status: true
+[INFO ] 2015-12-03 14:51:19,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175879531 || heartbeat: 244 || status: true
+[INFO ] 2015-12-03 14:51:20,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175880031 || heartbeat: 245 || status: true
+[INFO ] 2015-12-03 14:51:20,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175880531 || heartbeat: 246 || status: true
+[INFO ] 2015-12-03 14:51:21,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175881031 || heartbeat: 247 || status: true
+[INFO ] 2015-12-03 14:51:21,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175881531 || heartbeat: 248 || status: true
+[INFO ] 2015-12-03 14:51:22,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175882031 || heartbeat: 249 || status: true
+[INFO ] 2015-12-03 14:51:22,531 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175882531 || heartbeat: 250 || status: true
+[INFO ] 2015-12-03 14:51:23,031 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449175758506 || time stamp: 1449175883031 || heartbeat: 251 || status: true
+[INFO ] 2015-12-03 14:51:23,482 Node.class main Good Bye!
+[INFO ] 2015-12-03 15:06:28,495 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 15:06:29,924 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449176789923
+[INFO ] 2015-12-03 15:06:29,924 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 15:06:29,925 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 15:06:29,944 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 15:06:29,950 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176789950 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 15:06:29,951 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:06:29,951 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:06:30,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176790449 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 15:06:30,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176790949 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 15:06:31,372 Node.class main User want to list the current members
+[INFO ] 2015-12-03 15:06:31,372 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 15:06:31,372 Node.class main 130.126.28.9:1449176789923	||	1449176790949	||	4		||	true	||		||	false
+[INFO ] 2015-12-03 15:06:31,455 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176791455 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 15:06:31,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176791949 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 15:06:32,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176792449 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 15:06:32,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176792949 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 15:06:33,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176793449 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 15:06:33,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176793949 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 15:06:34,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176794449 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 15:06:34,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176794949 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 15:06:34,951 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:06:34,951 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:06:35,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176795449 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 15:06:35,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176795949 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 15:06:36,450 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176796449 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 15:06:36,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176796949 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 15:06:37,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176797449 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 15:06:37,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176797949 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 15:06:38,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176798449 || heartbeat: 19 || status: true
+[INFO ] 2015-12-03 15:06:38,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176798949 || heartbeat: 20 || status: true
+[INFO ] 2015-12-03 15:06:39,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176799449 || heartbeat: 21 || status: true
+[INFO ] 2015-12-03 15:06:39,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176799949 || heartbeat: 22 || status: true
+[INFO ] 2015-12-03 15:06:39,951 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:06:39,951 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:06:40,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176800449 || heartbeat: 23 || status: true
+[INFO ] 2015-12-03 15:06:40,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176800949 || heartbeat: 24 || status: true
+[INFO ] 2015-12-03 15:06:41,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176801449 || heartbeat: 25 || status: true
+[INFO ] 2015-12-03 15:06:41,950 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176801949 || heartbeat: 26 || status: true
+[INFO ] 2015-12-03 15:06:42,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176802449 || heartbeat: 27 || status: true
+[INFO ] 2015-12-03 15:06:42,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176802949 || heartbeat: 28 || status: true
+[INFO ] 2015-12-03 15:06:43,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176803449 || heartbeat: 29 || status: true
+[INFO ] 2015-12-03 15:06:43,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176803949 || heartbeat: 30 || status: true
+[INFO ] 2015-12-03 15:06:44,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176804449 || heartbeat: 31 || status: true
+[INFO ] 2015-12-03 15:06:44,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176804949 || heartbeat: 32 || status: true
+[INFO ] 2015-12-03 15:06:44,951 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:06:44,951 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:06:45,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176805449 || heartbeat: 33 || status: true
+[INFO ] 2015-12-03 15:06:45,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176805949 || heartbeat: 34 || status: true
+[INFO ] 2015-12-03 15:06:46,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176806449 || heartbeat: 35 || status: true
+[INFO ] 2015-12-03 15:06:46,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176806949 || heartbeat: 36 || status: true
+[INFO ] 2015-12-03 15:06:47,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176807449 || heartbeat: 37 || status: true
+[INFO ] 2015-12-03 15:06:47,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176807949 || heartbeat: 38 || status: true
+[INFO ] 2015-12-03 15:06:48,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176808449 || heartbeat: 39 || status: true
+[INFO ] 2015-12-03 15:06:48,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176808949 || heartbeat: 40 || status: true
+[INFO ] 2015-12-03 15:06:49,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176809449 || heartbeat: 41 || status: true
+[INFO ] 2015-12-03 15:06:49,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176809949 || heartbeat: 42 || status: true
+[INFO ] 2015-12-03 15:06:49,951 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:06:49,951 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:06:50,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176810449 || heartbeat: 43 || status: true
+[INFO ] 2015-12-03 15:06:50,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176810949 || heartbeat: 44 || status: true
+[INFO ] 2015-12-03 15:06:51,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176811449 || heartbeat: 45 || status: true
+[INFO ] 2015-12-03 15:06:51,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176811949 || heartbeat: 46 || status: true
+[INFO ] 2015-12-03 15:06:52,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176812449 || heartbeat: 47 || status: true
+[INFO ] 2015-12-03 15:06:52,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176812949 || heartbeat: 48 || status: true
+[INFO ] 2015-12-03 15:06:53,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176813449 || heartbeat: 49 || status: true
+[INFO ] 2015-12-03 15:06:53,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176813949 || heartbeat: 50 || status: true
+[INFO ] 2015-12-03 15:06:54,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176814449 || heartbeat: 51 || status: true
+[INFO ] 2015-12-03 15:06:54,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176814949 || heartbeat: 52 || status: true
+[INFO ] 2015-12-03 15:06:54,951 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:06:54,951 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:06:55,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176815449 || heartbeat: 53 || status: true
+[INFO ] 2015-12-03 15:06:55,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176815949 || heartbeat: 54 || status: true
+[INFO ] 2015-12-03 15:06:56,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176816449 || heartbeat: 55 || status: true
+[INFO ] 2015-12-03 15:06:56,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176816949 || heartbeat: 56 || status: true
+[INFO ] 2015-12-03 15:06:57,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176817449 || heartbeat: 57 || status: true
+[INFO ] 2015-12-03 15:06:57,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176817949 || heartbeat: 58 || status: true
+[INFO ] 2015-12-03 15:06:58,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176818449 || heartbeat: 59 || status: true
+[INFO ] 2015-12-03 15:06:58,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176818949 || heartbeat: 60 || status: true
+[INFO ] 2015-12-03 15:06:59,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176819449 || heartbeat: 61 || status: true
+[INFO ] 2015-12-03 15:06:59,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176819949 || heartbeat: 62 || status: true
+[INFO ] 2015-12-03 15:06:59,951 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:06:59,951 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:07:00,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176820449 || heartbeat: 63 || status: true
+[INFO ] 2015-12-03 15:07:00,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176820949 || heartbeat: 64 || status: true
+[INFO ] 2015-12-03 15:07:01,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176821449 || heartbeat: 65 || status: true
+[INFO ] 2015-12-03 15:07:01,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176821949 || heartbeat: 66 || status: true
+[INFO ] 2015-12-03 15:07:02,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176822449 || heartbeat: 67 || status: true
+[INFO ] 2015-12-03 15:07:02,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176822949 || heartbeat: 68 || status: true
+[INFO ] 2015-12-03 15:07:03,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176823449 || heartbeat: 69 || status: true
+[INFO ] 2015-12-03 15:07:03,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176823949 || heartbeat: 70 || status: true
+[INFO ] 2015-12-03 15:07:04,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176824449 || heartbeat: 71 || status: true
+[INFO ] 2015-12-03 15:07:04,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176824949 || heartbeat: 72 || status: true
+[INFO ] 2015-12-03 15:07:04,951 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:07:04,951 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:07:05,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176825449 || heartbeat: 73 || status: true
+[INFO ] 2015-12-03 15:07:05,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176825949 || heartbeat: 74 || status: true
+[INFO ] 2015-12-03 15:07:06,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176826449 || heartbeat: 75 || status: true
+[INFO ] 2015-12-03 15:07:06,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176826949 || heartbeat: 76 || status: true
+[INFO ] 2015-12-03 15:07:07,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176827449 || heartbeat: 77 || status: true
+[INFO ] 2015-12-03 15:07:07,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176827949 || heartbeat: 78 || status: true
+[INFO ] 2015-12-03 15:07:08,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176828449 || heartbeat: 79 || status: true
+[INFO ] 2015-12-03 15:07:08,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176828949 || heartbeat: 80 || status: true
+[INFO ] 2015-12-03 15:07:09,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176829449 || heartbeat: 81 || status: true
+[INFO ] 2015-12-03 15:07:09,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176829949 || heartbeat: 82 || status: true
+[INFO ] 2015-12-03 15:07:09,951 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:07:09,951 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:07:10,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176830449 || heartbeat: 83 || status: true
+[INFO ] 2015-12-03 15:07:10,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176830949 || heartbeat: 84 || status: true
+[INFO ] 2015-12-03 15:07:11,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176831449 || heartbeat: 85 || status: true
+[INFO ] 2015-12-03 15:07:11,949 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176831949 || heartbeat: 86 || status: true
+[INFO ] 2015-12-03 15:07:12,459 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176832449 || heartbeat: 87 || status: true
+[INFO ] 2015-12-03 15:07:12,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176832949 || heartbeat: 88 || status: true
+[INFO ] 2015-12-03 15:07:13,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176833449 || heartbeat: 89 || status: true
+[INFO ] 2015-12-03 15:07:13,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176833949 || heartbeat: 90 || status: true
+[INFO ] 2015-12-03 15:07:14,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176834449 || heartbeat: 91 || status: true
+[INFO ] 2015-12-03 15:07:14,950 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176834949 || heartbeat: 92 || status: true
+[INFO ] 2015-12-03 15:07:14,951 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:07:14,951 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:07:15,450 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176835449 || heartbeat: 93 || status: true
+[INFO ] 2015-12-03 15:07:15,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176835949 || heartbeat: 94 || status: true
+[INFO ] 2015-12-03 15:07:16,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176836449 || heartbeat: 95 || status: true
+[INFO ] 2015-12-03 15:07:16,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176836949 || heartbeat: 96 || status: true
+[INFO ] 2015-12-03 15:07:17,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176837449 || heartbeat: 97 || status: true
+[INFO ] 2015-12-03 15:07:17,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176837949 || heartbeat: 98 || status: true
+[INFO ] 2015-12-03 15:07:18,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176838449 || heartbeat: 99 || status: true
+[INFO ] 2015-12-03 15:07:18,950 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176838949 || heartbeat: 100 || status: true
+[INFO ] 2015-12-03 15:07:19,449 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176839449 || heartbeat: 101 || status: true
+[INFO ] 2015-12-03 15:07:19,949 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176839949 || heartbeat: 102 || status: true
+[INFO ] 2015-12-03 15:07:19,951 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:07:19,951 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:07:20,449 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176840449 || heartbeat: 103 || status: true
+[INFO ] 2015-12-03 15:07:20,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176840949 || heartbeat: 104 || status: true
+[INFO ] 2015-12-03 15:07:21,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176841449 || heartbeat: 105 || status: true
+[INFO ] 2015-12-03 15:07:21,949 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176841949 || heartbeat: 106 || status: true
+[INFO ] 2015-12-03 15:07:22,449 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176789923 || time stamp: 1449176842449 || heartbeat: 107 || status: true
+[INFO ] 2015-12-03 15:07:22,588 Node.class main Good Bye!
+[INFO ] 2015-12-03 15:07:33,900 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 15:07:35,781 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449176855781
+[INFO ] 2015-12-03 15:07:35,781 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 15:07:35,783 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 15:07:35,798 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 15:07:35,803 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176855803 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 15:07:35,806 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:07:35,807 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:07:36,303 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176856303 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 15:07:36,803 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176856803 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 15:07:37,303 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176857303 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 15:07:37,692 Node.class main User want to list the current members
+[INFO ] 2015-12-03 15:07:37,692 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 15:07:37,693 Node.class main 130.126.28.9:1449176855781	||	1449176857303	||	5		||	true	||		||	false
+[INFO ] 2015-12-03 15:07:37,803 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176857803 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 15:07:38,303 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176858303 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 15:07:38,803 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176858803 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 15:07:39,303 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176859303 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 15:07:39,803 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176859803 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 15:07:40,303 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176860303 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 15:07:40,803 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176860803 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 15:07:40,806 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:07:40,807 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:07:41,303 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176861303 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 15:07:41,803 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176861803 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 15:07:42,303 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176862303 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 15:07:42,803 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176862803 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 15:07:43,303 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176863303 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 15:07:43,803 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176863803 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 15:07:44,303 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176864303 || heartbeat: 19 || status: true
+[INFO ] 2015-12-03 15:07:44,803 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176864803 || heartbeat: 20 || status: true
+[INFO ] 2015-12-03 15:07:45,303 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176865303 || heartbeat: 21 || status: true
+[INFO ] 2015-12-03 15:07:45,803 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176865803 || heartbeat: 22 || status: true
+[INFO ] 2015-12-03 15:07:45,806 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:07:45,807 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:07:46,303 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176866303 || heartbeat: 23 || status: true
+[INFO ] 2015-12-03 15:07:46,803 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176866803 || heartbeat: 24 || status: true
+[INFO ] 2015-12-03 15:07:47,303 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176867303 || heartbeat: 25 || status: true
+[INFO ] 2015-12-03 15:07:47,803 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176867803 || heartbeat: 26 || status: true
+[INFO ] 2015-12-03 15:07:48,303 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176868303 || heartbeat: 27 || status: true
+[INFO ] 2015-12-03 15:07:48,803 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176868803 || heartbeat: 28 || status: true
+[INFO ] 2015-12-03 15:07:49,303 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176869303 || heartbeat: 29 || status: true
+[INFO ] 2015-12-03 15:07:49,803 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176869803 || heartbeat: 30 || status: true
+[INFO ] 2015-12-03 15:07:50,303 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176870303 || heartbeat: 31 || status: true
+[INFO ] 2015-12-03 15:07:50,803 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176870803 || heartbeat: 32 || status: true
+[INFO ] 2015-12-03 15:07:50,806 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:07:50,807 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:07:51,303 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176871303 || heartbeat: 33 || status: true
+[INFO ] 2015-12-03 15:07:51,803 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176871803 || heartbeat: 34 || status: true
+[INFO ] 2015-12-03 15:07:52,303 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176872303 || heartbeat: 35 || status: true
+[INFO ] 2015-12-03 15:07:52,803 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176872803 || heartbeat: 36 || status: true
+[INFO ] 2015-12-03 15:07:53,303 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176873303 || heartbeat: 37 || status: true
+[INFO ] 2015-12-03 15:07:53,803 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176873803 || heartbeat: 38 || status: true
+[INFO ] 2015-12-03 15:07:54,303 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176874303 || heartbeat: 39 || status: true
+[INFO ] 2015-12-03 15:07:54,803 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176874803 || heartbeat: 40 || status: true
+[INFO ] 2015-12-03 15:07:55,303 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176875303 || heartbeat: 41 || status: true
+[INFO ] 2015-12-03 15:07:55,803 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176875803 || heartbeat: 42 || status: true
+[INFO ] 2015-12-03 15:07:55,806 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:07:55,806 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:07:56,303 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176855781 || time stamp: 1449176876303 || heartbeat: 43 || status: true
+[INFO ] 2015-12-03 15:07:58,518 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 15:07:59,781 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449176879781
+[INFO ] 2015-12-03 15:07:59,781 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 15:07:59,783 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 15:07:59,793 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 15:07:59,797 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176879797 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 15:07:59,798 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:07:59,798 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:00,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176880297 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 15:08:00,797 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176880797 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 15:08:01,045 Node.class main User want to list the current members
+[INFO ] 2015-12-03 15:08:01,045 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 15:08:01,045 Node.class main 130.126.28.9:1449176879781	||	1449176880797	||	4		||	true	||	None	||	false
+[INFO ] 2015-12-03 15:08:01,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176881297 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 15:08:01,796 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176881796 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 15:08:02,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176882297 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 15:08:02,796 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176882796 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 15:08:03,296 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176883296 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 15:08:03,796 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176883796 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 15:08:04,296 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176884296 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 15:08:04,796 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176884796 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 15:08:04,798 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:04,798 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:05,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176885296 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 15:08:05,796 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176885796 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 15:08:06,296 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176886296 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 15:08:06,796 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176886796 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 15:08:07,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176887296 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 15:08:07,797 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176887797 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 15:08:08,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176888297 || heartbeat: 19 || status: true
+[INFO ] 2015-12-03 15:08:08,797 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176888797 || heartbeat: 20 || status: true
+[INFO ] 2015-12-03 15:08:09,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176889297 || heartbeat: 21 || status: true
+[INFO ] 2015-12-03 15:08:09,797 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176889797 || heartbeat: 22 || status: true
+[INFO ] 2015-12-03 15:08:09,798 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:09,799 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:10,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176890297 || heartbeat: 23 || status: true
+[INFO ] 2015-12-03 15:08:10,797 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176890797 || heartbeat: 24 || status: true
+[INFO ] 2015-12-03 15:08:11,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176891297 || heartbeat: 25 || status: true
+[INFO ] 2015-12-03 15:08:11,797 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176891797 || heartbeat: 26 || status: true
+[INFO ] 2015-12-03 15:08:12,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176892297 || heartbeat: 27 || status: true
+[INFO ] 2015-12-03 15:08:12,797 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176892797 || heartbeat: 28 || status: true
+[INFO ] 2015-12-03 15:08:13,297 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176893297 || heartbeat: 29 || status: true
+[INFO ] 2015-12-03 15:08:13,797 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176893797 || heartbeat: 30 || status: true
+[INFO ] 2015-12-03 15:08:14,297 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176894297 || heartbeat: 31 || status: true
+[INFO ] 2015-12-03 15:08:14,797 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176894797 || heartbeat: 32 || status: true
+[INFO ] 2015-12-03 15:08:14,798 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:14,799 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:15,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176895297 || heartbeat: 33 || status: true
+[INFO ] 2015-12-03 15:08:15,797 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176895796 || heartbeat: 34 || status: true
+[INFO ] 2015-12-03 15:08:16,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176896296 || heartbeat: 35 || status: true
+[INFO ] 2015-12-03 15:08:16,797 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176896796 || heartbeat: 36 || status: true
+[INFO ] 2015-12-03 15:08:17,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176897297 || heartbeat: 37 || status: true
+[INFO ] 2015-12-03 15:08:17,797 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176897797 || heartbeat: 38 || status: true
+[INFO ] 2015-12-03 15:08:18,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176898297 || heartbeat: 39 || status: true
+[INFO ] 2015-12-03 15:08:18,797 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176898797 || heartbeat: 40 || status: true
+[INFO ] 2015-12-03 15:08:19,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176899297 || heartbeat: 41 || status: true
+[INFO ] 2015-12-03 15:08:19,797 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176899796 || heartbeat: 42 || status: true
+[INFO ] 2015-12-03 15:08:19,798 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:19,799 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:20,297 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176900297 || heartbeat: 43 || status: true
+[INFO ] 2015-12-03 15:08:20,797 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176900796 || heartbeat: 44 || status: true
+[INFO ] 2015-12-03 15:08:21,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176901297 || heartbeat: 45 || status: true
+[INFO ] 2015-12-03 15:08:21,797 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176901797 || heartbeat: 46 || status: true
+[INFO ] 2015-12-03 15:08:22,296 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176902296 || heartbeat: 47 || status: true
+[INFO ] 2015-12-03 15:08:22,797 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176902796 || heartbeat: 48 || status: true
+[INFO ] 2015-12-03 15:08:23,297 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176903297 || heartbeat: 49 || status: true
+[INFO ] 2015-12-03 15:08:23,797 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176903796 || heartbeat: 50 || status: true
+[INFO ] 2015-12-03 15:08:24,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176904297 || heartbeat: 51 || status: true
+[INFO ] 2015-12-03 15:08:24,797 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176904796 || heartbeat: 52 || status: true
+[INFO ] 2015-12-03 15:08:24,798 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:24,799 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:25,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176905297 || heartbeat: 53 || status: true
+[INFO ] 2015-12-03 15:08:25,797 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176905796 || heartbeat: 54 || status: true
+[INFO ] 2015-12-03 15:08:26,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176906297 || heartbeat: 55 || status: true
+[INFO ] 2015-12-03 15:08:26,797 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176906797 || heartbeat: 56 || status: true
+[INFO ] 2015-12-03 15:08:27,296 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176907296 || heartbeat: 57 || status: true
+[INFO ] 2015-12-03 15:08:27,797 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176907797 || heartbeat: 58 || status: true
+[INFO ] 2015-12-03 15:08:28,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176908296 || heartbeat: 59 || status: true
+[INFO ] 2015-12-03 15:08:28,797 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176908797 || heartbeat: 60 || status: true
+[INFO ] 2015-12-03 15:08:29,297 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176909296 || heartbeat: 61 || status: true
+[INFO ] 2015-12-03 15:08:29,797 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176909797 || heartbeat: 62 || status: true
+[INFO ] 2015-12-03 15:08:29,798 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:29,799 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:30,297 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176879781 || time stamp: 1449176910297 || heartbeat: 63 || status: true
+[INFO ] 2015-12-03 15:08:30,516 Node.class main Good Bye!
+[INFO ] 2015-12-03 15:08:35,103 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 15:08:36,246 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449176916245
+[INFO ] 2015-12-03 15:08:36,246 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 15:08:36,247 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 15:08:36,259 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 15:08:36,268 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176916268 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 15:08:36,270 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:36,271 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:36,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176916767 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 15:08:37,267 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176917267 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 15:08:37,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176917767 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 15:08:38,267 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176918267 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 15:08:38,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176918767 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 15:08:39,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176919267 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 15:08:39,685 Node.class main User want to list the current members
+[INFO ] 2015-12-03 15:08:39,685 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 15:08:39,685 Node.class main 130.126.28.9:1449176916245	||	1449176919267	||	8		||	true	||	None		||	false
+[INFO ] 2015-12-03 15:08:39,767 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176919767 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 15:08:40,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176920267 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 15:08:40,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176920767 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 15:08:41,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176921267 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 15:08:41,270 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:41,271 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:41,767 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176921767 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 15:08:42,267 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176922267 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 15:08:42,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176922767 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 15:08:43,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176923267 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 15:08:43,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176923767 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 15:08:44,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176924267 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 15:08:44,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176924767 || heartbeat: 19 || status: true
+[INFO ] 2015-12-03 15:08:45,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176925267 || heartbeat: 20 || status: true
+[INFO ] 2015-12-03 15:08:45,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176925767 || heartbeat: 21 || status: true
+[INFO ] 2015-12-03 15:08:46,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176926267 || heartbeat: 22 || status: true
+[INFO ] 2015-12-03 15:08:46,270 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:46,271 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:46,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176926767 || heartbeat: 23 || status: true
+[INFO ] 2015-12-03 15:08:47,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176927267 || heartbeat: 24 || status: true
+[INFO ] 2015-12-03 15:08:47,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176927767 || heartbeat: 25 || status: true
+[INFO ] 2015-12-03 15:08:48,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176928267 || heartbeat: 26 || status: true
+[INFO ] 2015-12-03 15:08:48,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176928767 || heartbeat: 27 || status: true
+[INFO ] 2015-12-03 15:08:49,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176929267 || heartbeat: 28 || status: true
+[INFO ] 2015-12-03 15:08:49,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176929767 || heartbeat: 29 || status: true
+[INFO ] 2015-12-03 15:08:50,267 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176930267 || heartbeat: 30 || status: true
+[INFO ] 2015-12-03 15:08:50,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176930767 || heartbeat: 31 || status: true
+[INFO ] 2015-12-03 15:08:51,267 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176931267 || heartbeat: 32 || status: true
+[INFO ] 2015-12-03 15:08:51,270 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:51,271 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:51,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176931767 || heartbeat: 33 || status: true
+[INFO ] 2015-12-03 15:08:52,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176932267 || heartbeat: 34 || status: true
+[INFO ] 2015-12-03 15:08:52,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176932767 || heartbeat: 35 || status: true
+[INFO ] 2015-12-03 15:08:53,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176933267 || heartbeat: 36 || status: true
+[INFO ] 2015-12-03 15:08:53,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176933767 || heartbeat: 37 || status: true
+[INFO ] 2015-12-03 15:08:54,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176934267 || heartbeat: 38 || status: true
+[INFO ] 2015-12-03 15:08:54,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176934767 || heartbeat: 39 || status: true
+[INFO ] 2015-12-03 15:08:55,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176935267 || heartbeat: 40 || status: true
+[INFO ] 2015-12-03 15:08:55,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176935767 || heartbeat: 41 || status: true
+[INFO ] 2015-12-03 15:08:56,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176936267 || heartbeat: 42 || status: true
+[INFO ] 2015-12-03 15:08:56,270 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:08:56,271 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:08:56,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176936767 || heartbeat: 43 || status: true
+[INFO ] 2015-12-03 15:08:57,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176937267 || heartbeat: 44 || status: true
+[INFO ] 2015-12-03 15:08:57,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176937767 || heartbeat: 45 || status: true
+[INFO ] 2015-12-03 15:08:58,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176938267 || heartbeat: 46 || status: true
+[INFO ] 2015-12-03 15:08:58,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176938767 || heartbeat: 47 || status: true
+[INFO ] 2015-12-03 15:08:59,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176939267 || heartbeat: 48 || status: true
+[INFO ] 2015-12-03 15:08:59,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176939767 || heartbeat: 49 || status: true
+[INFO ] 2015-12-03 15:09:00,267 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176940267 || heartbeat: 50 || status: true
+[INFO ] 2015-12-03 15:09:00,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176940767 || heartbeat: 51 || status: true
+[INFO ] 2015-12-03 15:09:01,267 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176941267 || heartbeat: 52 || status: true
+[INFO ] 2015-12-03 15:09:01,270 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:01,271 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:01,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176941767 || heartbeat: 53 || status: true
+[INFO ] 2015-12-03 15:09:02,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176942267 || heartbeat: 54 || status: true
+[INFO ] 2015-12-03 15:09:02,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176942767 || heartbeat: 55 || status: true
+[INFO ] 2015-12-03 15:09:03,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176943267 || heartbeat: 56 || status: true
+[INFO ] 2015-12-03 15:09:03,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176943767 || heartbeat: 57 || status: true
+[INFO ] 2015-12-03 15:09:04,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176944267 || heartbeat: 58 || status: true
+[INFO ] 2015-12-03 15:09:04,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176944767 || heartbeat: 59 || status: true
+[INFO ] 2015-12-03 15:09:05,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176945267 || heartbeat: 60 || status: true
+[INFO ] 2015-12-03 15:09:05,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176945767 || heartbeat: 61 || status: true
+[INFO ] 2015-12-03 15:09:06,267 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176946267 || heartbeat: 62 || status: true
+[INFO ] 2015-12-03 15:09:06,270 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:06,271 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:06,767 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176946767 || heartbeat: 63 || status: true
+[INFO ] 2015-12-03 15:09:07,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176947267 || heartbeat: 64 || status: true
+[INFO ] 2015-12-03 15:09:07,767 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176947767 || heartbeat: 65 || status: true
+[INFO ] 2015-12-03 15:09:08,267 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176948267 || heartbeat: 66 || status: true
+[INFO ] 2015-12-03 15:09:08,767 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176948767 || heartbeat: 67 || status: true
+[INFO ] 2015-12-03 15:09:09,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176949267 || heartbeat: 68 || status: true
+[INFO ] 2015-12-03 15:09:09,767 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176949767 || heartbeat: 69 || status: true
+[INFO ] 2015-12-03 15:09:10,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176950267 || heartbeat: 70 || status: true
+[INFO ] 2015-12-03 15:09:10,767 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176950767 || heartbeat: 71 || status: true
+[INFO ] 2015-12-03 15:09:11,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176951267 || heartbeat: 72 || status: true
+[INFO ] 2015-12-03 15:09:11,270 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:11,271 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:11,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176951767 || heartbeat: 73 || status: true
+[INFO ] 2015-12-03 15:09:12,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176952267 || heartbeat: 74 || status: true
+[INFO ] 2015-12-03 15:09:12,767 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176952767 || heartbeat: 75 || status: true
+[INFO ] 2015-12-03 15:09:13,267 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176953267 || heartbeat: 76 || status: true
+[INFO ] 2015-12-03 15:09:13,767 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176953767 || heartbeat: 77 || status: true
+[INFO ] 2015-12-03 15:09:14,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176954267 || heartbeat: 78 || status: true
+[INFO ] 2015-12-03 15:09:14,767 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176954767 || heartbeat: 79 || status: true
+[INFO ] 2015-12-03 15:09:15,267 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176916245 || time stamp: 1449176955267 || heartbeat: 80 || status: true
+[INFO ] 2015-12-03 15:09:17,872 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 15:09:18,998 Node.class main Good Bye!
+[INFO ] 2015-12-03 15:09:21,315 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 15:09:22,799 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449176962798
+[INFO ] 2015-12-03 15:09:22,799 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 15:09:22,800 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 15:09:22,816 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 15:09:22,823 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176962823 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 15:09:22,824 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:22,825 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:23,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176963323 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 15:09:23,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176963823 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 15:09:24,014 Node.class main User want to list the current members
+[INFO ] 2015-12-03 15:09:24,014 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 15:09:24,014 Node.class main 130.126.28.9:1449176962798	||	1449176963823	||	4		||	true		||	None	||	false
+[INFO ] 2015-12-03 15:09:24,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176964323 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 15:09:24,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176964823 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 15:09:25,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176965323 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 15:09:25,823 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176965823 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 15:09:26,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176966323 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 15:09:26,823 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176966823 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 15:09:27,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176967323 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 15:09:27,823 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176967822 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 15:09:27,824 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:27,825 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:28,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176968323 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 15:09:28,823 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176968823 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 15:09:29,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176969323 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 15:09:29,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176969823 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 15:09:30,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176970323 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 15:09:30,823 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176970823 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 15:09:31,323 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176971323 || heartbeat: 19 || status: true
+[INFO ] 2015-12-03 15:09:31,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176971822 || heartbeat: 20 || status: true
+[INFO ] 2015-12-03 15:09:32,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176972323 || heartbeat: 21 || status: true
+[INFO ] 2015-12-03 15:09:32,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176972822 || heartbeat: 22 || status: true
+[INFO ] 2015-12-03 15:09:32,824 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:32,825 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:33,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176973323 || heartbeat: 23 || status: true
+[INFO ] 2015-12-03 15:09:33,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176973823 || heartbeat: 24 || status: true
+[INFO ] 2015-12-03 15:09:34,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176974323 || heartbeat: 25 || status: true
+[INFO ] 2015-12-03 15:09:34,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176974823 || heartbeat: 26 || status: true
+[INFO ] 2015-12-03 15:09:35,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176975322 || heartbeat: 27 || status: true
+[INFO ] 2015-12-03 15:09:35,823 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176975823 || heartbeat: 28 || status: true
+[INFO ] 2015-12-03 15:09:36,322 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176976322 || heartbeat: 29 || status: true
+[INFO ] 2015-12-03 15:09:36,822 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176976822 || heartbeat: 30 || status: true
+[INFO ] 2015-12-03 15:09:37,322 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176977322 || heartbeat: 31 || status: true
+[INFO ] 2015-12-03 15:09:37,823 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176977823 || heartbeat: 32 || status: true
+[INFO ] 2015-12-03 15:09:37,824 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:37,825 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:38,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176978322 || heartbeat: 33 || status: true
+[INFO ] 2015-12-03 15:09:38,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176978822 || heartbeat: 34 || status: true
+[INFO ] 2015-12-03 15:09:39,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176979322 || heartbeat: 35 || status: true
+[INFO ] 2015-12-03 15:09:39,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176979822 || heartbeat: 36 || status: true
+[INFO ] 2015-12-03 15:09:40,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176980323 || heartbeat: 37 || status: true
+[INFO ] 2015-12-03 15:09:40,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176980822 || heartbeat: 38 || status: true
+[INFO ] 2015-12-03 15:09:41,322 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176981322 || heartbeat: 39 || status: true
+[INFO ] 2015-12-03 15:09:41,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176981822 || heartbeat: 40 || status: true
+[INFO ] 2015-12-03 15:09:42,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176982322 || heartbeat: 41 || status: true
+[INFO ] 2015-12-03 15:09:42,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176982823 || heartbeat: 42 || status: true
+[INFO ] 2015-12-03 15:09:42,824 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:42,825 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:43,322 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176983322 || heartbeat: 43 || status: true
+[INFO ] 2015-12-03 15:09:43,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176983823 || heartbeat: 44 || status: true
+[INFO ] 2015-12-03 15:09:44,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176984323 || heartbeat: 45 || status: true
+[INFO ] 2015-12-03 15:09:44,823 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176984823 || heartbeat: 46 || status: true
+[INFO ] 2015-12-03 15:09:45,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176985323 || heartbeat: 47 || status: true
+[INFO ] 2015-12-03 15:09:45,823 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176985823 || heartbeat: 48 || status: true
+[INFO ] 2015-12-03 15:09:46,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176986322 || heartbeat: 49 || status: true
+[INFO ] 2015-12-03 15:09:46,823 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176986822 || heartbeat: 50 || status: true
+[INFO ] 2015-12-03 15:09:47,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176987322 || heartbeat: 51 || status: true
+[INFO ] 2015-12-03 15:09:47,823 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176987823 || heartbeat: 52 || status: true
+[INFO ] 2015-12-03 15:09:47,824 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:47,825 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:48,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176988323 || heartbeat: 53 || status: true
+[INFO ] 2015-12-03 15:09:48,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176988823 || heartbeat: 54 || status: true
+[INFO ] 2015-12-03 15:09:49,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176989323 || heartbeat: 55 || status: true
+[INFO ] 2015-12-03 15:09:49,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176989823 || heartbeat: 56 || status: true
+[INFO ] 2015-12-03 15:09:50,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176990323 || heartbeat: 57 || status: true
+[INFO ] 2015-12-03 15:09:50,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176990823 || heartbeat: 58 || status: true
+[INFO ] 2015-12-03 15:09:51,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176991323 || heartbeat: 59 || status: true
+[INFO ] 2015-12-03 15:09:51,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176991823 || heartbeat: 60 || status: true
+[INFO ] 2015-12-03 15:09:52,323 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176992323 || heartbeat: 61 || status: true
+[INFO ] 2015-12-03 15:09:52,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176992823 || heartbeat: 62 || status: true
+[INFO ] 2015-12-03 15:09:52,824 IntroducerRejoinThread.class pool-1-thread-1 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:52,825 IntroducerRejoinThread.class pool-1-thread-1 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:53,323 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176993323 || heartbeat: 63 || status: true
+[INFO ] 2015-12-03 15:09:53,823 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176993823 || heartbeat: 64 || status: true
+[INFO ] 2015-12-03 15:09:54,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176994323 || heartbeat: 65 || status: true
+[INFO ] 2015-12-03 15:09:54,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176994823 || heartbeat: 66 || status: true
+[INFO ] 2015-12-03 15:09:55,322 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176995322 || heartbeat: 67 || status: true
+[INFO ] 2015-12-03 15:09:55,823 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176995823 || heartbeat: 68 || status: true
+[INFO ] 2015-12-03 15:09:56,323 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176996323 || heartbeat: 69 || status: true
+[INFO ] 2015-12-03 15:09:56,823 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176996823 || heartbeat: 70 || status: true
+[INFO ] 2015-12-03 15:09:57,323 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176997323 || heartbeat: 71 || status: true
+[INFO ] 2015-12-03 15:09:57,823 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176997823 || heartbeat: 72 || status: true
+[INFO ] 2015-12-03 15:09:57,824 IntroducerRejoinThread.class pool-1-thread-3 Ping Introducer begins.
+[INFO ] 2015-12-03 15:09:57,825 IntroducerRejoinThread.class pool-1-thread-3 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:09:58,322 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176998322 || heartbeat: 73 || status: true
+[INFO ] 2015-12-03 15:09:58,823 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176998823 || heartbeat: 74 || status: true
+[INFO ] 2015-12-03 15:09:59,323 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449176962798 || time stamp: 1449176999323 || heartbeat: 75 || status: true
+[INFO ] 2015-12-03 15:09:59,397 Node.class main Good Bye!
+[INFO ] 2015-12-03 15:10:01,268 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 15:10:02,583 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449177002583
+[INFO ] 2015-12-03 15:10:02,583 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 15:10:02,586 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 15:10:02,604 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 15:10:02,608 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177002583 || time stamp: 1449177002608 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 15:10:02,609 IntroducerRejoinThread.class pool-1-thread-2 Ping Introducer begins.
+[INFO ] 2015-12-03 15:10:02,610 IntroducerRejoinThread.class pool-1-thread-2 Exiting from the method pingIntroducer.
+[INFO ] 2015-12-03 15:10:03,108 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177002583 || time stamp: 1449177003108 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 15:10:03,608 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177002583 || time stamp: 1449177003608 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 15:10:04,031 Node.class main User want to list the current members
+[INFO ] 2015-12-03 15:10:04,031 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 15:10:04,031 Node.class main 130.126.28.9:1449177002583	||	1449177003608	||	4		||	true		||	None		||	false
+[INFO ] 2015-12-03 15:10:04,108 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177002583 || time stamp: 1449177004108 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 15:10:04,608 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177002583 || time stamp: 1449177004608 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 15:10:05,108 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177002583 || time stamp: 1449177005108 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 15:10:05,608 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177002583 || time stamp: 1449177005608 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 15:10:06,108 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177002583 || time stamp: 1449177006108 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 15:10:06,608 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177002583 || time stamp: 1449177006608 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 15:11:12,594 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 15:11:14,184 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449177074184
+[INFO ] 2015-12-03 15:11:14,185 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 15:11:14,186 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 15:11:14,186 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 15:11:14,202 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177074201 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 15:11:14,695 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177074695 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 15:11:15,195 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177075195 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 15:11:15,695 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177075695 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 15:11:16,184 Node.class main User want to list the current members
+[INFO ] 2015-12-03 15:11:16,184 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 15:11:16,184 Node.class main 130.126.28.9:1449177074184	||	1449177075695	||	5		||	true		||	S		||	true
+[INFO ] 2015-12-03 15:11:16,195 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177076195 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 15:11:16,695 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177076695 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 15:11:17,195 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177077195 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 15:11:17,695 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177077695 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 15:11:18,195 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177078195 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 15:11:18,695 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177078695 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 15:11:19,195 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177079195 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 15:11:19,695 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177079695 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 15:11:20,195 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177080195 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 15:11:20,695 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177080695 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 15:11:21,195 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177081195 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 15:11:21,695 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177081695 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 15:11:22,195 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177074184 || time stamp: 1449177082195 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 15:11:22,367 Node.class main Good Bye!
+[INFO ] 2015-12-03 15:11:32,195 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 15:11:34,040 Node.class main Good Bye!
+[INFO ] 2015-12-03 15:11:36,779 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 15:11:38,000 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449177098000
+[INFO ] 2015-12-03 15:11:38,000 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 15:11:38,001 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 15:11:38,001 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 15:11:38,006 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177098006 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 15:11:38,505 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177098505 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 15:11:39,005 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177099005 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 15:11:39,272 Node.class main User want to list the current members
+[INFO ] 2015-12-03 15:11:39,273 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 15:11:39,273 Node.class main 130.126.28.9:1449177098000	||	1449177099005	||	4		||	true		||	S		||	true
+[INFO ] 2015-12-03 15:11:39,505 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177099505 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 15:11:40,005 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177100005 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 15:11:40,505 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177100505 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 15:11:41,005 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177101005 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 15:11:41,505 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177101505 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 15:11:42,005 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177102005 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 15:11:42,505 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177102505 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 15:11:43,005 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177103005 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 15:11:43,505 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177103505 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 15:11:44,005 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177104005 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 15:11:44,505 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177104505 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 15:11:45,005 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177105005 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 15:11:45,505 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177105505 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 15:11:46,005 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449177098000 || time stamp: 1449177106005 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 15:11:46,217 Node.class main Good Bye!
+[INFO ] 2015-12-03 16:10:07,671 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 16:10:09,171 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449180609171
+[INFO ] 2015-12-03 16:10:09,171 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 16:10:09,172 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 16:10:09,172 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 16:10:09,182 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180609182 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 16:10:09,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180609678 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 16:10:10,178 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180610178 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 16:10:10,678 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180610678 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 16:10:10,818 Node.class main User want to list the current members
+[INFO ] 2015-12-03 16:10:10,818 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 16:10:10,819 Node.class main 130.126.28.9:1449180609171	||	1449180610678	||	5		||	true		||	S		||	true
+[INFO ] 2015-12-03 16:10:11,178 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180611178 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 16:10:11,678 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180611678 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 16:10:12,178 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180612178 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 16:10:12,679 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180612679 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 16:10:13,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180613178 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 16:10:13,678 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180613678 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 16:10:14,178 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180614178 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 16:10:14,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180614679 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 16:10:15,178 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180615178 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 16:10:15,678 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180615678 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 16:10:16,178 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180616178 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 16:10:16,678 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180616678 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 16:10:17,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180617179 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 16:10:17,678 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180617678 || heartbeat: 19 || status: true
+[INFO ] 2015-12-03 16:10:18,178 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180618178 || heartbeat: 20 || status: true
+[INFO ] 2015-12-03 16:10:18,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180618679 || heartbeat: 21 || status: true
+[INFO ] 2015-12-03 16:10:19,178 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180619178 || heartbeat: 22 || status: true
+[INFO ] 2015-12-03 16:10:19,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180619679 || heartbeat: 23 || status: true
+[INFO ] 2015-12-03 16:10:20,178 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180620178 || heartbeat: 24 || status: true
+[INFO ] 2015-12-03 16:10:20,678 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180620678 || heartbeat: 25 || status: true
+[INFO ] 2015-12-03 16:10:21,178 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180621178 || heartbeat: 26 || status: true
+[INFO ] 2015-12-03 16:10:21,678 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180621678 || heartbeat: 27 || status: true
+[INFO ] 2015-12-03 16:10:22,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180622179 || heartbeat: 28 || status: true
+[INFO ] 2015-12-03 16:10:22,678 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180622678 || heartbeat: 29 || status: true
+[INFO ] 2015-12-03 16:10:23,178 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180623178 || heartbeat: 30 || status: true
+[INFO ] 2015-12-03 16:10:23,678 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180623678 || heartbeat: 31 || status: true
+[INFO ] 2015-12-03 16:10:24,178 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180624178 || heartbeat: 32 || status: true
+[INFO ] 2015-12-03 16:10:24,679 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180624679 || heartbeat: 33 || status: true
+[INFO ] 2015-12-03 16:10:25,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180625179 || heartbeat: 34 || status: true
+[INFO ] 2015-12-03 16:10:25,678 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180625678 || heartbeat: 35 || status: true
+[INFO ] 2015-12-03 16:10:26,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180626179 || heartbeat: 36 || status: true
+[INFO ] 2015-12-03 16:10:26,679 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180626679 || heartbeat: 37 || status: true
+[INFO ] 2015-12-03 16:10:27,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180627179 || heartbeat: 38 || status: true
+[INFO ] 2015-12-03 16:10:27,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180627679 || heartbeat: 39 || status: true
+[INFO ] 2015-12-03 16:10:28,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180628178 || heartbeat: 40 || status: true
+[INFO ] 2015-12-03 16:10:28,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180628679 || heartbeat: 41 || status: true
+[INFO ] 2015-12-03 16:10:29,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180629179 || heartbeat: 42 || status: true
+[INFO ] 2015-12-03 16:10:29,679 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180629679 || heartbeat: 43 || status: true
+[INFO ] 2015-12-03 16:10:30,179 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180630179 || heartbeat: 44 || status: true
+[INFO ] 2015-12-03 16:10:30,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180630679 || heartbeat: 45 || status: true
+[INFO ] 2015-12-03 16:10:31,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180631179 || heartbeat: 46 || status: true
+[INFO ] 2015-12-03 16:10:31,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180631679 || heartbeat: 47 || status: true
+[INFO ] 2015-12-03 16:10:32,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180632179 || heartbeat: 48 || status: true
+[INFO ] 2015-12-03 16:10:32,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180632679 || heartbeat: 49 || status: true
+[INFO ] 2015-12-03 16:10:33,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180633179 || heartbeat: 50 || status: true
+[INFO ] 2015-12-03 16:10:33,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180633679 || heartbeat: 51 || status: true
+[INFO ] 2015-12-03 16:10:34,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180634178 || heartbeat: 52 || status: true
+[INFO ] 2015-12-03 16:10:34,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180634679 || heartbeat: 53 || status: true
+[INFO ] 2015-12-03 16:10:35,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180635179 || heartbeat: 54 || status: true
+[INFO ] 2015-12-03 16:10:35,679 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180635678 || heartbeat: 55 || status: true
+[INFO ] 2015-12-03 16:10:36,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180636179 || heartbeat: 56 || status: true
+[INFO ] 2015-12-03 16:10:36,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180636679 || heartbeat: 57 || status: true
+[INFO ] 2015-12-03 16:10:37,179 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180637179 || heartbeat: 58 || status: true
+[INFO ] 2015-12-03 16:10:37,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180637679 || heartbeat: 59 || status: true
+[INFO ] 2015-12-03 16:10:38,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180638179 || heartbeat: 60 || status: true
+[INFO ] 2015-12-03 16:10:38,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180638678 || heartbeat: 61 || status: true
+[INFO ] 2015-12-03 16:10:39,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180639178 || heartbeat: 62 || status: true
+[INFO ] 2015-12-03 16:10:39,679 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180639679 || heartbeat: 63 || status: true
+[INFO ] 2015-12-03 16:10:40,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180640179 || heartbeat: 64 || status: true
+[INFO ] 2015-12-03 16:10:40,679 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180640679 || heartbeat: 65 || status: true
+[INFO ] 2015-12-03 16:10:41,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180641179 || heartbeat: 66 || status: true
+[INFO ] 2015-12-03 16:10:41,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180641678 || heartbeat: 67 || status: true
+[INFO ] 2015-12-03 16:10:42,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180642179 || heartbeat: 68 || status: true
+[INFO ] 2015-12-03 16:10:42,679 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180642679 || heartbeat: 69 || status: true
+[INFO ] 2015-12-03 16:10:43,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180643179 || heartbeat: 70 || status: true
+[INFO ] 2015-12-03 16:10:43,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180643679 || heartbeat: 71 || status: true
+[INFO ] 2015-12-03 16:10:44,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180644179 || heartbeat: 72 || status: true
+[INFO ] 2015-12-03 16:10:44,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180644679 || heartbeat: 73 || status: true
+[INFO ] 2015-12-03 16:10:45,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180645178 || heartbeat: 74 || status: true
+[INFO ] 2015-12-03 16:10:45,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180645679 || heartbeat: 75 || status: true
+[INFO ] 2015-12-03 16:10:46,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180646178 || heartbeat: 76 || status: true
+[INFO ] 2015-12-03 16:10:46,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180646679 || heartbeat: 77 || status: true
+[INFO ] 2015-12-03 16:10:47,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180647179 || heartbeat: 78 || status: true
+[INFO ] 2015-12-03 16:10:47,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180647679 || heartbeat: 79 || status: true
+[INFO ] 2015-12-03 16:10:48,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180648179 || heartbeat: 80 || status: true
+[INFO ] 2015-12-03 16:10:48,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180648679 || heartbeat: 81 || status: true
+[INFO ] 2015-12-03 16:10:49,179 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180649179 || heartbeat: 82 || status: true
+[INFO ] 2015-12-03 16:10:49,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180649679 || heartbeat: 83 || status: true
+[INFO ] 2015-12-03 16:10:50,179 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180650179 || heartbeat: 84 || status: true
+[INFO ] 2015-12-03 16:10:50,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180650679 || heartbeat: 85 || status: true
+[INFO ] 2015-12-03 16:10:51,179 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180651179 || heartbeat: 86 || status: true
+[INFO ] 2015-12-03 16:10:51,679 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180651679 || heartbeat: 87 || status: true
+[INFO ] 2015-12-03 16:10:52,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180652179 || heartbeat: 88 || status: true
+[INFO ] 2015-12-03 16:10:52,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180652679 || heartbeat: 89 || status: true
+[INFO ] 2015-12-03 16:10:53,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180653179 || heartbeat: 90 || status: true
+[INFO ] 2015-12-03 16:10:53,679 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180653679 || heartbeat: 91 || status: true
+[INFO ] 2015-12-03 16:10:54,179 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180654178 || heartbeat: 92 || status: true
+[INFO ] 2015-12-03 16:10:54,679 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180609171 || time stamp: 1449180654679 || heartbeat: 93 || status: true
+[INFO ] 2015-12-03 16:10:55,008 Node.class main Good Bye!
+[INFO ] 2015-12-03 16:11:23,282 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 16:11:24,541 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449180684541
+[INFO ] 2015-12-03 16:11:24,541 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 16:11:24,542 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 16:11:24,542 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 16:11:24,553 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180684553 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 16:11:25,050 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180685050 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 16:11:25,550 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180685550 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 16:11:26,051 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180686050 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 16:11:26,550 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180686550 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 16:11:27,050 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180687050 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 16:11:27,550 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180687550 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 16:11:28,050 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180688050 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 16:11:28,550 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180688550 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 16:11:29,050 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180689050 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 16:11:29,550 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180689550 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 16:11:30,050 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180690050 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 16:11:30,550 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180690550 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 16:11:31,050 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180691050 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 16:11:31,550 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180691550 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 16:11:32,050 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180692050 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 16:11:32,550 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180692550 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 16:11:33,050 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180693050 || heartbeat: 19 || status: true
+[INFO ] 2015-12-03 16:11:33,550 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449180684541 || time stamp: 1449180693550 || heartbeat: 20 || status: true
+[INFO ] 2015-12-03 16:11:33,645 Node.class main Good Bye!
+[INFO ] 2015-12-03 17:59:01,107 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 17:59:03,066 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449187143066
+[INFO ] 2015-12-03 17:59:03,067 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 17:59:03,069 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 17:59:03,069 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 17:59:03,072 craneRoleListenerThread.class Thread-1 craneRoleListenerThread initialzing....
+[INFO ] 2015-12-03 17:59:03,083 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187143083 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 17:59:03,580 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187143580 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 17:59:04,080 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187144080 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 17:59:04,514 Node.class main User want to list the current members
+[INFO ] 2015-12-03 17:59:04,514 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 17:59:04,515 Node.class main 130.126.28.9:1449187143066	||	1449187144080	||	4		||	true		||	S		||	true
+[INFO ] 2015-12-03 17:59:04,580 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187144580 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 17:59:05,080 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187145080 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 17:59:05,580 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187145580 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 17:59:06,080 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187146080 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 17:59:06,580 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187146580 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 17:59:06,730 Node.class main User want to list the current members
+[INFO ] 2015-12-03 17:59:06,730 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 17:59:06,730 Node.class main 130.126.28.9:1449187143066	||	1449187146580	||	9		||	true		||	S		||	true
+[INFO ] 2015-12-03 17:59:07,080 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187147080 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 17:59:07,580 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187147580 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 17:59:08,080 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187148080 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 17:59:08,580 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187148580 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 17:59:09,080 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187149080 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 17:59:09,580 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187149580 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 17:59:10,080 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187150080 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 17:59:10,580 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449187143066 || time stamp: 1449187150580 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 17:59:10,587 Node.class main Good Bye!
+[INFO ] 2015-12-03 18:17:53,328 Node.class main Logging is succesfully initialized! Refer log file CS425_MP4_node.log
+[INFO ] 2015-12-03 18:17:55,118 Node.class main Machine IP: 130.126.28.9 and Machine ID: 130.126.28.9:1449188275118
+[INFO ] 2015-12-03 18:17:55,118 Node.class main Adding it's entry in the Gossip list!
+[INFO ] 2015-12-03 18:17:55,120 Node.class main Checking for the introducer.
+[INFO ] 2015-12-03 18:17:55,120 Node.class main Exiting from the method checkIntroducer.
+[INFO ] 2015-12-03 18:17:55,124 craneRoleListenerThread.class Thread-1 craneRoleListenerThread initialzing....
+[INFO ] 2015-12-03 18:17:55,135 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188275135 || heartbeat: 2 || status: true
+[INFO ] 2015-12-03 18:17:55,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188275632 || heartbeat: 3 || status: true
+[INFO ] 2015-12-03 18:17:56,132 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188276132 || heartbeat: 4 || status: true
+[INFO ] 2015-12-03 18:17:56,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188276632 || heartbeat: 5 || status: true
+[INFO ] 2015-12-03 18:17:56,734 Node.class main User want to list the current members
+[INFO ] 2015-12-03 18:17:56,734 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 18:17:56,734 Node.class main 130.126.28.9:1449188275118	||	1449188276632	||	5		||	true		||	S		||	true
+[INFO ] 2015-12-03 18:17:57,132 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188277132 || heartbeat: 6 || status: true
+[INFO ] 2015-12-03 18:17:57,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188277632 || heartbeat: 7 || status: true
+[INFO ] 2015-12-03 18:17:58,132 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188278132 || heartbeat: 8 || status: true
+[INFO ] 2015-12-03 18:17:58,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188278632 || heartbeat: 9 || status: true
+[INFO ] 2015-12-03 18:17:59,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188279132 || heartbeat: 10 || status: true
+[INFO ] 2015-12-03 18:17:59,622 Node.class main User want to list the current members
+[INFO ] 2015-12-03 18:17:59,622 Node.class main *********MachineId********	||	**Last Seen**	||	Hearbeat	||	Is Active?
+[INFO ] 2015-12-03 18:17:59,622 Node.class main 130.126.28.9:1449188275118	||	1449188279132	||	10		||	true		||	S		||	true
+[INFO ] 2015-12-03 18:17:59,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188279632 || heartbeat: 11 || status: true
+[INFO ] 2015-12-03 18:18:00,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188280132 || heartbeat: 12 || status: true
+[INFO ] 2015-12-03 18:18:00,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188280632 || heartbeat: 13 || status: true
+[INFO ] 2015-12-03 18:18:01,132 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188281131 || heartbeat: 14 || status: true
+[INFO ] 2015-12-03 18:18:01,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188281632 || heartbeat: 15 || status: true
+[INFO ] 2015-12-03 18:18:02,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188282132 || heartbeat: 16 || status: true
+[INFO ] 2015-12-03 18:18:02,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188282632 || heartbeat: 17 || status: true
+[INFO ] 2015-12-03 18:18:03,132 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188283132 || heartbeat: 18 || status: true
+[INFO ] 2015-12-03 18:18:03,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188283632 || heartbeat: 19 || status: true
+[INFO ] 2015-12-03 18:18:04,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188284132 || heartbeat: 20 || status: true
+[INFO ] 2015-12-03 18:18:04,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188284632 || heartbeat: 21 || status: true
+[INFO ] 2015-12-03 18:18:05,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188285132 || heartbeat: 22 || status: true
+[INFO ] 2015-12-03 18:18:05,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188285632 || heartbeat: 23 || status: true
+[INFO ] 2015-12-03 18:18:06,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188286132 || heartbeat: 24 || status: true
+[INFO ] 2015-12-03 18:18:06,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188286632 || heartbeat: 25 || status: true
+[INFO ] 2015-12-03 18:18:07,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188287132 || heartbeat: 26 || status: true
+[INFO ] 2015-12-03 18:18:07,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188287632 || heartbeat: 27 || status: true
+[INFO ] 2015-12-03 18:18:08,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188288132 || heartbeat: 28 || status: true
+[INFO ] 2015-12-03 18:18:08,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188288632 || heartbeat: 29 || status: true
+[INFO ] 2015-12-03 18:18:09,132 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188289132 || heartbeat: 30 || status: true
+[INFO ] 2015-12-03 18:18:09,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188289632 || heartbeat: 31 || status: true
+[INFO ] 2015-12-03 18:18:10,132 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188290132 || heartbeat: 32 || status: true
+[INFO ] 2015-12-03 18:18:10,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188290632 || heartbeat: 33 || status: true
+[INFO ] 2015-12-03 18:18:11,132 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188291132 || heartbeat: 34 || status: true
+[INFO ] 2015-12-03 18:18:11,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188291632 || heartbeat: 35 || status: true
+[INFO ] 2015-12-03 18:18:12,132 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188292132 || heartbeat: 36 || status: true
+[INFO ] 2015-12-03 18:18:12,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188292632 || heartbeat: 37 || status: true
+[INFO ] 2015-12-03 18:18:13,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188293132 || heartbeat: 38 || status: true
+[INFO ] 2015-12-03 18:18:13,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188293632 || heartbeat: 39 || status: true
+[INFO ] 2015-12-03 18:18:14,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188294132 || heartbeat: 40 || status: true
+[INFO ] 2015-12-03 18:18:14,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188294632 || heartbeat: 41 || status: true
+[INFO ] 2015-12-03 18:18:15,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188295131 || heartbeat: 42 || status: true
+[INFO ] 2015-12-03 18:18:15,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188295632 || heartbeat: 43 || status: true
+[INFO ] 2015-12-03 18:18:16,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188296132 || heartbeat: 44 || status: true
+[INFO ] 2015-12-03 18:18:16,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188296632 || heartbeat: 45 || status: true
+[INFO ] 2015-12-03 18:18:17,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188297132 || heartbeat: 46 || status: true
+[INFO ] 2015-12-03 18:18:17,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188297632 || heartbeat: 47 || status: true
+[INFO ] 2015-12-03 18:18:18,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188298132 || heartbeat: 48 || status: true
+[INFO ] 2015-12-03 18:18:18,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188298632 || heartbeat: 49 || status: true
+[INFO ] 2015-12-03 18:18:19,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188299132 || heartbeat: 50 || status: true
+[INFO ] 2015-12-03 18:18:19,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188299632 || heartbeat: 51 || status: true
+[INFO ] 2015-12-03 18:18:20,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188300132 || heartbeat: 52 || status: true
+[INFO ] 2015-12-03 18:18:20,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188300632 || heartbeat: 53 || status: true
+[INFO ] 2015-12-03 18:18:21,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188301132 || heartbeat: 54 || status: true
+[INFO ] 2015-12-03 18:18:21,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188301632 || heartbeat: 55 || status: true
+[INFO ] 2015-12-03 18:18:22,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188302131 || heartbeat: 56 || status: true
+[INFO ] 2015-12-03 18:18:22,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188302632 || heartbeat: 57 || status: true
+[INFO ] 2015-12-03 18:18:23,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188303132 || heartbeat: 58 || status: true
+[INFO ] 2015-12-03 18:18:23,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188303632 || heartbeat: 59 || status: true
+[INFO ] 2015-12-03 18:18:24,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188304132 || heartbeat: 60 || status: true
+[INFO ] 2015-12-03 18:18:24,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188304632 || heartbeat: 61 || status: true
+[INFO ] 2015-12-03 18:18:25,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188305132 || heartbeat: 62 || status: true
+[INFO ] 2015-12-03 18:18:25,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188305632 || heartbeat: 63 || status: true
+[INFO ] 2015-12-03 18:18:26,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188306132 || heartbeat: 64 || status: true
+[INFO ] 2015-12-03 18:18:26,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188306632 || heartbeat: 65 || status: true
+[INFO ] 2015-12-03 18:18:27,132 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188307132 || heartbeat: 66 || status: true
+[INFO ] 2015-12-03 18:18:27,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188307632 || heartbeat: 67 || status: true
+[INFO ] 2015-12-03 18:18:28,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188308131 || heartbeat: 68 || status: true
+[INFO ] 2015-12-03 18:18:28,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188308632 || heartbeat: 69 || status: true
+[INFO ] 2015-12-03 18:18:29,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188309132 || heartbeat: 70 || status: true
+[INFO ] 2015-12-03 18:18:29,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188309632 || heartbeat: 71 || status: true
+[INFO ] 2015-12-03 18:18:30,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188310132 || heartbeat: 72 || status: true
+[INFO ] 2015-12-03 18:18:30,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188310632 || heartbeat: 73 || status: true
+[INFO ] 2015-12-03 18:18:31,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188311132 || heartbeat: 74 || status: true
+[INFO ] 2015-12-03 18:18:31,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188311632 || heartbeat: 75 || status: true
+[INFO ] 2015-12-03 18:18:32,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188312132 || heartbeat: 76 || status: true
+[INFO ] 2015-12-03 18:18:32,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188312632 || heartbeat: 77 || status: true
+[INFO ] 2015-12-03 18:18:33,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188313131 || heartbeat: 78 || status: true
+[INFO ] 2015-12-03 18:18:33,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188313632 || heartbeat: 79 || status: true
+[INFO ] 2015-12-03 18:18:34,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188314132 || heartbeat: 80 || status: true
+[INFO ] 2015-12-03 18:18:34,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188314631 || heartbeat: 81 || status: true
+[INFO ] 2015-12-03 18:18:35,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188315132 || heartbeat: 82 || status: true
+[INFO ] 2015-12-03 18:18:35,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188315632 || heartbeat: 83 || status: true
+[INFO ] 2015-12-03 18:18:36,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188316132 || heartbeat: 84 || status: true
+[INFO ] 2015-12-03 18:18:36,632 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188316632 || heartbeat: 85 || status: true
+[INFO ] 2015-12-03 18:18:37,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188317132 || heartbeat: 86 || status: true
+[INFO ] 2015-12-03 18:18:37,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188317632 || heartbeat: 87 || status: true
+[INFO ] 2015-12-03 18:18:38,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188318132 || heartbeat: 88 || status: true
+[INFO ] 2015-12-03 18:18:38,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188318631 || heartbeat: 89 || status: true
+[INFO ] 2015-12-03 18:18:39,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188319131 || heartbeat: 90 || status: true
+[INFO ] 2015-12-03 18:18:39,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188319632 || heartbeat: 91 || status: true
+[INFO ] 2015-12-03 18:18:40,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188320132 || heartbeat: 92 || status: true
+[INFO ] 2015-12-03 18:18:40,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188320632 || heartbeat: 93 || status: true
+[INFO ] 2015-12-03 18:18:41,141 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188321141 || heartbeat: 94 || status: true
+[INFO ] 2015-12-03 18:18:41,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188321632 || heartbeat: 95 || status: true
+[INFO ] 2015-12-03 18:18:42,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188322132 || heartbeat: 96 || status: true
+[INFO ] 2015-12-03 18:18:42,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188322632 || heartbeat: 97 || status: true
+[INFO ] 2015-12-03 18:18:43,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188323132 || heartbeat: 98 || status: true
+[INFO ] 2015-12-03 18:18:43,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188323632 || heartbeat: 99 || status: true
+[INFO ] 2015-12-03 18:18:44,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188324132 || heartbeat: 100 || status: true
+[INFO ] 2015-12-03 18:18:44,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188324632 || heartbeat: 101 || status: true
+[INFO ] 2015-12-03 18:18:45,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188325132 || heartbeat: 102 || status: true
+[INFO ] 2015-12-03 18:18:45,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188325632 || heartbeat: 103 || status: true
+[INFO ] 2015-12-03 18:18:46,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188326131 || heartbeat: 104 || status: true
+[INFO ] 2015-12-03 18:18:46,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188326632 || heartbeat: 105 || status: true
+[INFO ] 2015-12-03 18:18:47,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188327132 || heartbeat: 106 || status: true
+[INFO ] 2015-12-03 18:18:47,632 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188327631 || heartbeat: 107 || status: true
+[INFO ] 2015-12-03 18:18:48,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188328132 || heartbeat: 108 || status: true
+[INFO ] 2015-12-03 18:18:48,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188328632 || heartbeat: 109 || status: true
+[INFO ] 2015-12-03 18:18:49,132 GossipSenderThread.class pool-1-thread-3 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188329132 || heartbeat: 110 || status: true
+[INFO ] 2015-12-03 18:18:49,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188329632 || heartbeat: 111 || status: true
+[INFO ] 2015-12-03 18:18:50,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188330132 || heartbeat: 112 || status: true
+[INFO ] 2015-12-03 18:18:50,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188330632 || heartbeat: 113 || status: true
+[INFO ] 2015-12-03 18:18:51,132 GossipSenderThread.class pool-1-thread-2 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188331131 || heartbeat: 114 || status: true
+[INFO ] 2015-12-03 18:18:51,632 GossipSenderThread.class pool-1-thread-1 packet info: id 130.126.28.9:1449188275118 || time stamp: 1449188331632 || heartbeat: 115 || status: true
