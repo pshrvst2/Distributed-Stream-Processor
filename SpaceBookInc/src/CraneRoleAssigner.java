@@ -53,6 +53,14 @@ public class CraneRoleAssigner {
 		for(String id: ids)
 		{
 			CraneRoleThreadStarter(id,aggrId);
+			if(id.equals(aggrId))
+			{
+				Node._gossipMap.get(id).setType(Node._bolt_aggregate);
+			}
+			else
+			{
+				Node._gossipMap.get(id).setType(Node._bolt_filter);
+			}
 		}
 		
 	}

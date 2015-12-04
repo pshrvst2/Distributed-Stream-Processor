@@ -137,7 +137,7 @@ public class Node
 			_schedulerService.scheduleAtFixedRate(new ListScanThread(), 0, 100, unit);
 			
 			//logic to check whether the introducer is trying to rejoin again
-			if(_machineIp != _introducerIp)
+			if(!_machineIp.equals(_introducerIp))
 			{
 				// MP4
 				Thread RoleListenerThread = new RoleListener();

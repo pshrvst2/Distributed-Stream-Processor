@@ -74,10 +74,11 @@ public class CraneRoleListenerThread extends Thread
 			{
 				temp.setType(Node._bolt_aggregate);
 			}
-			else
+			else if(!record.getKey().substring(0, record.getKey().indexOf(":")).equals(Node._introducerIp))
 			{
 				temp.setType(Node._bolt_filter);
 			}
+			temp.setListening(true);
 		}
 	}
 
