@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Random;
 
 
 public class CraneRoleAssigner {
@@ -18,37 +19,24 @@ public class CraneRoleAssigner {
 			serverCounts = Node._gossipMap.size();
 			
 			// TODO change this logic later, make it more generic 
-			if(serverCounts >1)
+			if(serverCounts >2)
 			{
 				ArrayList<String> blotIds = new ArrayList<String>();
 				for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet())
 				{
 					NodeData temp = record.getValue();
+					// put the all the ids excpet for the introducers
 					if(temp.getType().equals("None"))
 					{
 						blotIds.add(record.getKey());
 					}
 				}
-				if(serverCounts == 3)
-				{
-					updateCraneRoleFor3(blotIds);
-				}
-				else if(serverCounts ==4)
-				{
-					updateCraneRoleFor4(blotIds);
-				}
-				else if(serverCounts ==6)
-				{
-					updateCraneRoleFor6(blotIds);
-				}
-				else
-				{
-					System.out.println("The number of vm is not support at this verison");
-				}
+				// take out the introducer
+				updateCraneRole(blotIds,serverCounts-1);				
 			}
 			else
 			{
-				System.out.println("There is no other memeber on the list, please try again later");
+				System.out.println("There is no enough memeber on the list, please try again later");
 			}
 		}
 		else
@@ -56,49 +44,31 @@ public class CraneRoleAssigner {
 			System.out.println("You don't have the previlige to assign crane role");
 		}
 	}
-	public void updateCraneRoleFor3 (ArrayList<String> ids)
+	
+	
+	public void updateCraneRole(ArrayList<String> ids, int num)
 	{
-		Node._gossipMap.get(ids.get(0)).setType(Node._bolt_filter);
-		CraneRoleThreadStarter(ids.get(0),Node._bolt_filter);
+		int aggrNum = getRandomNumInRange(num);
+		String aggrId = ids.get(aggrNum);
+		for(String id: ids)
+		{
+			CraneRoleThreadStarter(id,aggrId);
+		}
 		
-		Node._gossipMap.get(ids.get(1)).setType(Node._bolt_aggregate_sink);
-		CraneRoleThreadStarter(ids.get(1),Node._bolt_aggregate_sink);
 	}
 	
-	public void updateCraneRoleFor4 (ArrayList<String> ids)
-	{
-		Node._gossipMap.get(ids.get(0)).setType(Node._bolt_filter);
-		CraneRoleThreadStarter(ids.get(0),Node._bolt_filter);
-		
-		Node._gossipMap.get(ids.get(1)).setType(Node._bolt_aggregate_sink);
-		CraneRoleThreadStarter(ids.get(1),Node._bolt_aggregate_sink);
-		
-		Node._gossipMap.get(ids.get(2)).setType(Node._bolt_filter);
-		CraneRoleThreadStarter(ids.get(2),Node._bolt_filter);
+	public int getRandomNumInRange(int num)
+	{		
+		Random rand = new Random();
+		return rand.nextInt(num);
 	}
 	
-	public void updateCraneRoleFor6 (ArrayList<String> ids)
+	public void CraneRoleThreadStarter(String id, String aggrId)
 	{
-		Node._gossipMap.get(ids.get(0)).setType(Node._bolt_filter);
-		CraneRoleThreadStarter(ids.get(0),Node._bolt_filter);
-		
-		Node._gossipMap.get(ids.get(1)).setType(Node._bolt_aggregate_sink);
-		CraneRoleThreadStarter(ids.get(1),Node._bolt_aggregate_sink);
-		
-		Node._gossipMap.get(ids.get(2)).setType(Node._bolt_filter);
-		CraneRoleThreadStarter(ids.get(2),Node._bolt_filter);
-		
-		Node._gossipMap.get(ids.get(3)).setType(Node._bolt_filter);
-		CraneRoleThreadStarter(ids.get(3),Node._bolt_filter);
-		
-		Node._gossipMap.get(ids.get(4)).setType(Node._bolt_aggregate);
-		CraneRoleThreadStarter(ids.get(4),Node._bolt_aggregate);
-	}
-	
-	public void CraneRoleThreadStarter(String id, String role)
-	{
-		Thread CraneRoleSenderThread = new CraneRoleSenderThread(Node._TCPPortForCraneRole, id, Node._craneRoleMessage+"["+role+"]");
+		Thread CraneRoleSenderThread = new CraneRoleSenderThread(Node._TCPPortForCraneRole, id, Node._craneRoleMessage+"["+aggrId+"]");
 		CraneRoleSenderThread.start();
 	}
+	
+	
 	
 }

@@ -39,6 +39,17 @@ public class CraneRoleSenderThread extends Thread{
 				out.println(message);
 				
 				// TODO ask piyush see if we anaylize the update message from the in.readlin()
+				String returnStr = "";
+				while ((returnStr = in.readLine()) != null) 
+				{
+					_logger.info(" Received from "+receiverId+" message: " + returnStr);
+					if(returnStr.equals(Node._craneBoltListenningMsg))
+					{
+						Node._gossipMap.get(receiverId).setListening(true);
+						//Node._gossipMap.get(receiverId).setType(Node.);
+					}
+				}
+				
 				out.close();
 				in.close();
 				socket.close();		

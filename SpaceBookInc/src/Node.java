@@ -48,11 +48,11 @@ public class Node
 	
 	public final static String _spout = "S";
 	public final static String _bolt_filter = "B-F";
-	public final static String _bolt_aggregate_sink = "B-AS";
+	//public final static String _bolt_aggregate_sink = "B-AS";
 	public final static String _bolt_aggregate ="B-A";
 	
 	public static boolean _craneRoleListenerThreadStop =false;
-	public final static String _craneRoleMessage = "New Role :";
+	public final static String _craneRoleMessage = "New aggregator :";
 	public final static String _craneBoltListenningMsg = "Listening";
 	public final static int _TCPPortForCraneRole = 3000; 
 	
@@ -125,8 +125,8 @@ public class Node
 			gossipListener.start();
 			
 			//Now open TCP socket for crane role
-			Thread craneRoleListenerThread = new craneRoleListenerThread(_TCPPortForCraneRole);
-			craneRoleListenerThread.start();
+			//Thread craneRoleListenerThread = new CraneRoleListenerThread(_TCPPortForCraneRole);
+			//craneRoleListenerThread.start();
 			
 			
 			// logic to send periodically
@@ -139,10 +139,13 @@ public class Node
 			//logic to check whether the introducer is trying to rejoin again
 			if(_machineIp != _introducerIp)
 			{
+				// MP4
+				Thread RoleListenerThread = new RoleListener();
+				RoleListenerThread.start();
 				// we will check this occasionally
 				_schedulerService.scheduleAtFixedRate(new IntroducerRejoinThread(), 0, 5000, unit);
 			}
-			
+
 			flag = true;
 			while(flag)
 			{
