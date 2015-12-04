@@ -10,6 +10,7 @@ import java.net.SocketException;
 import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -35,7 +36,7 @@ public class Node
 	public static Logger _logger = Logger.getLogger(Node.class);
 	public final static int _portSender = 2001;
 	public final static int _portReceiver = 2000;
-	public static String _introducerIp = "192.17.11.91";
+	public static String _introducerIp = "192.17.11.4";
 	public static boolean _listenerThreadStop = false;
 	public static String _machineIp = "";
 	public static String _machineId= "";
@@ -51,17 +52,27 @@ public class Node
 	//public final static String _bolt_aggregate_sink = "B-AS";
 	public final static String _bolt_aggregate ="B-A";
 	
+	
 	public static boolean _craneRoleListenerThreadStop =false;
 	public final static String _craneRoleMessage = "New aggregator :";
 	public final static String _craneBoltListenningMsg = "Listening";
+	public final static String _spoutSteammingStopMsg ="##### streamming stop ######";
+	
 	public final static int _TCPPortForCraneRole = 3000; 
+	public final static int _TCPPortForStreaming =3001;
 	
-	
+	public static boolean _streamReadingStop =false;
+	final static String _streamFilePath = "/home/xchen135/stream/";
+	final static String _resultFilePath = "/home/xchen135/result/";
+	final static String _streamFileName = "Streaming data";
+	final static String _resultFileName = "Result";
 	//public static List<NodeData> _gossipList = Collections.synchronizedList(new ArrayList<NodeData>());
 	// Thread safe data structure needed to store the details of all the machines in the 
 	// Gossip group. Concurrent hashmap is our best option as it can store string, nodeData. 
 	public static ConcurrentHashMap<String, NodeData> _gossipMap = new ConcurrentHashMap<String, NodeData>();
-
+	// steaming list used for local storage of the streaming 
+	public static ConcurrentLinkedQueue<String> _streamingList = new ConcurrentLinkedQueue<String>();
+	
 	/**
 	 * @param args To ensure : Server init has to be command line.
 	 */
@@ -123,12 +134,7 @@ public class Node
 			//Now open your socket and listen to other peers.
 			gossipListener = new GossipListenerThread(_portReceiver);
 			gossipListener.start();
-			
-			//Now open TCP socket for crane role
-			//Thread craneRoleListenerThread = new CraneRoleListenerThread(_TCPPortForCraneRole);
-			//craneRoleListenerThread.start();
-			
-			
+		
 			// logic to send periodically
 			ScheduledExecutorService _schedulerService = Executors.newScheduledThreadPool(3);
 			_schedulerService.scheduleAtFixedRate(new GossipSenderThread(_portReceiver), 0, 500, unit);
@@ -140,7 +146,7 @@ public class Node
 			if(!_machineIp.equals(_introducerIp))
 			{
 				// MP4
-				Thread RoleListenerThread = new RoleListener();
+				Thread RoleListenerThread = new CraneRoleListener();
 				RoleListenerThread.start();
 				// we will check this occasionally
 				_schedulerService.scheduleAtFixedRate(new IntroducerRejoinThread(), 0, 5000, unit);
@@ -154,6 +160,7 @@ public class Node
 				System.out.println("Type 'quit' to quit the group and close servers");
 				System.out.println("Type 'info' to know your machine details");
 				System.out.println("Type 'assign' to assign the crane role to each memeber");
+				System.out.println("Type 'start' to start the crane. ");
 				
 				
 				BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -216,6 +223,11 @@ public class Node
 				{
 					CraneRoleAssigner assigner = new CraneRoleAssigner(_machineIp);
 					assigner.assignRole();
+				}
+				else if(userCmd.equalsIgnoreCase("start"))
+				{
+					SpoutStarter starter = new SpoutStarter(_machineIp);
+					starter.start();
 				}
 			}
 		} 

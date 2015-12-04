@@ -76,7 +76,4 @@ public class CraneRoleAssigner {
 		Thread CraneRoleSenderThread = new CraneRoleSenderThread(Node._TCPPortForCraneRole, id, Node._craneRoleMessage+"["+aggrId+"]");
 		CraneRoleSenderThread.start();
 	}
-	
-	
-	
 }

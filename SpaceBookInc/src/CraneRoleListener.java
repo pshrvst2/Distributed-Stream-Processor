@@ -1,6 +1,8 @@
 import java.net.Inet4Address;
 import java.net.ServerSocket;
 
+import org.apache.log4j.Logger;
+
 /**
  * 
  */
@@ -9,14 +11,10 @@ import java.net.ServerSocket;
  * @author xchen135
  *
  */
-public class RoleListener extends Thread {
+public class CraneRoleListener extends Thread {
 	
 	private ServerSocket serverSocketListener;
-
-	/*public void RoleListener()
-	{
-		
-	}*/
+	public static Logger _logger = Logger.getLogger(CraneRoleListener.class);
 
 	public void run() {
 
@@ -27,12 +25,12 @@ public class RoleListener extends Thread {
 			while (!Node._craneRoleListenerThreadStop) 
 			{
 				new CraneRoleListenerThread(serverSocketListener.accept(), serverIp).start();
-				//write logs
+				_logger.info("CraneRoleListenerThread Initialing .... ");
 			}
 		}
 		catch(Exception e)
 		{
-			
+			_logger.error(e);
 		}
 	}
 }

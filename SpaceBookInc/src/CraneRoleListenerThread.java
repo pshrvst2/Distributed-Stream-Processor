@@ -98,28 +98,4 @@ public class CraneRoleListenerThread extends Thread
 		this.ipAddr = ipAddr;
 	}
 
-
-
-
-	/*
-
-	public void sendRoleUpdateMsg(String ip) throws UnknownHostException, IOException
-	{
-		_logger.info("Sending OK _craneBoltListenningMsg from: "+Node._machineId+" to "+ ip);
-		Socket socket = new Socket(ip, Node._TCPPortForCraneRole);
-		BufferedReader in = new BufferedReader( new InputStreamReader(socket.getInputStream()));
-		PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-		out.println(Node._craneBoltListenningMsg + "["+Node._machineId+"]");
-
-		String servermsg ="";
-		while((servermsg = in.readLine()) !=null)
-		{
-			// not sure wether we should use this! 
-			_logger.info(" sendRoleUpdateMsg receiving "+servermsg);
-		}
-
-		out.close();
-		in.close();
-		socket.close();
-	}*/
 }
