@@ -43,7 +43,7 @@ public class SpoutStarter
 				
 				while (Node._streamingList.size()!=0)
 				{
-					_logger.info("There are still "+Node._streamingList.size()+" has been waiting for distrubted....");
+					//_logger.info("There are still "+Node._streamingList.size()+" has been waiting for distrubted....");
 				}
 				Node._streamReadingStop = true;
 			}
