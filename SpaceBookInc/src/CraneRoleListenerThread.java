@@ -47,7 +47,7 @@ public class CraneRoleListenerThread extends Thread
 					// activateAggregatorWorkers
 					
 					// Use introducer's id, since we need to return the result to the introducer. 
-					Thread BoltAggregateWorkerThread = new BoltAggregateWorkerThread(Node._TCPPortForStreaming,Node._introducerIp);
+					Thread BoltAggregateWorkerThread = new BoltAggregateWorkerThread(Node._TCPPortForJobReport,Node._introducerIp);
 					BoltAggregateWorkerThread.start();
 					
 					// start to listen to the filter bolts
@@ -59,7 +59,7 @@ public class CraneRoleListenerThread extends Thread
 				{
 					// start the filter listener here 
 					// activateFilterWorkers
-					Thread BoltFilterWorkerThread = new BoltFilterWorkerThread(Node._TCPPortForJobReport, aggrId);
+					Thread BoltFilterWorkerThread = new BoltFilterWorkerThread(Node._TCPPortForStreaming, aggrId);
 					BoltFilterWorkerThread.start();
 					
 					// start to listen to the spout
