@@ -48,7 +48,7 @@ public class BoltListenerThread extends Thread
 				else
 				{
 					Node._streamingList.add(message);
-					_logger.info("BoltListenerThread received message : "+message);
+					_logger.info("!!!!!!!!!!!!!!!!!!BoltListenerThread received message : "+message);
 				}			
 			}
 			
@@ -58,7 +58,7 @@ public class BoltListenerThread extends Thread
 				//_logger.info("There are still "+Node._streamingList.size()+" has been waiting for distrubted....");
 			}
 			Node._streamReadingStop = true;
-			
+			_logger.info("!!!!!!!!!!!!!!!!!!!!_streamReadingStop");
 			// TODO do we need to update something here
 			pw.close();
 			reader.close();

@@ -97,6 +97,12 @@ public class BoltFilterWorkerThread extends Thread
 	{
 				
 		String words[] = s.split("\\s");
+		//TODO just for the fast testing, need to remove this later 
+		// clean up the map before we wanna use it
+		for(Entry<String, Integer> entry : wordCountMap.entrySet())
+		{
+			wordCountMap.put(entry.getKey(), 0);
+		}
 		
 		for(String eachWord : words)
 		{
