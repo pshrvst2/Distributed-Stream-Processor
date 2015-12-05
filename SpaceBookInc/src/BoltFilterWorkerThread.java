@@ -99,8 +99,6 @@ public class BoltFilterWorkerThread extends Thread
 		for(String eachWord : words)
 		{
 			Integer count = 0;
-			if(eachWord.charAt(eachWord.length()-1) == ',')
-				eachWord = eachWord.substring(0, eachWord.length()-1);
 			if(wordCountMap.containsKey(eachWord))
 			{
 				count = wordCountMap.get(eachWord);
