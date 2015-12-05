@@ -20,7 +20,7 @@ public class JobDoneListener extends Thread
 
 		try 
 		{	
-			serverSocketListener = new ServerSocket(Node._TCPPortForStreaming);
+			serverSocketListener = new ServerSocket(Node._TCPPortForJobReport);
 			String serverIp = Inet4Address.getLocalHost().getHostAddress();
 			while (!Node._jobIsCompleted) 
 			{

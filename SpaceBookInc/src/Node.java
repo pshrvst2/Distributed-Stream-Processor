@@ -62,6 +62,7 @@ public class Node
 	
 	public final static int _TCPPortForCraneRole = 3000; 
 	public final static int _TCPPortForStreaming =3001;
+	public final static int _TCPPortForJobReport =3002;
 	
 	public static boolean _streamReadingStop =false;
 	public static boolean _jobIsCompleted = false;

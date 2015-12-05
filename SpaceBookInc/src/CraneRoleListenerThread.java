@@ -59,7 +59,7 @@ public class CraneRoleListenerThread extends Thread
 				{
 					// start the filter listener here 
 					// activateFilterWorkers
-					Thread BoltFilterWorkerThread = new BoltFilterWorkerThread(Node._TCPPortForStreaming, aggrId);
+					Thread BoltFilterWorkerThread = new BoltFilterWorkerThread(Node._TCPPortForJobReport, aggrId);
 					BoltFilterWorkerThread.start();
 					
 					// start to listen to the spout
