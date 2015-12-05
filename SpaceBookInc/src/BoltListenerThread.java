@@ -41,7 +41,7 @@ public class BoltListenerThread extends Thread
 			while((message = reader.readLine())!=null )
 			{
 				// receive stream message from spout. stop the worker for writing the stream into the concurrent list
-				if(message.equals(Node._spoutStreammingStopMsg))
+				if(message.equals(Node._streammingStopMsg))
 				{
 					break;
 				}

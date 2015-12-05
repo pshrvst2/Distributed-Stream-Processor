@@ -31,6 +31,10 @@ public class CraneRoleAssigner {
 						blotIds.add(record.getKey());
 					}
 				}
+				
+				// try to start to listen to the aggregator bolt to detect whether the job has been done! 
+				Thread JobDoneListener = new JobDoneListener();
+				JobDoneListener.start();
 				// take out the introducer
 				updateCraneRole(blotIds,serverCounts-1);				
 			}

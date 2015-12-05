@@ -46,7 +46,7 @@ public class GossipListenerThread extends Thread
 					listernerSocket.receive(receivedPacket);
 					int port = receivedPacket.getPort();
 					InetAddress ipAddress = receivedPacket.getAddress();
-					_logger.info("Received packet from: "+ipAddress+" at port: "+port);
+					//_logger.info("Received packet from: "+ipAddress+" at port: "+port);
 
 					byte[] receivedBytes = receivedPacket.getData();
 					ByteArrayInputStream bais = new ByteArrayInputStream(receivedBytes);
@@ -59,7 +59,7 @@ public class GossipListenerThread extends Thread
 					{
 
 						String machineId = record.getKey().trim();
-						_logger.info("******machineId = "+machineId+" Heartbeat = "+record.getValue().getHeartBeat()+" ****************");
+						//_logger.info("******machineId = "+machineId+" Heartbeat = "+record.getValue().getHeartBeat()+" ****************");
 						// to prevent the machine accidentally mark itself dead just because other say so. 
 						if(!machineId.equalsIgnoreCase(Node._machineId))
 						{
@@ -71,19 +71,19 @@ public class GossipListenerThread extends Thread
 				}
 				catch (IOException e) 
 				{
-					_logger.error(e);
+					//_logger.error(e);
 					e.printStackTrace();
 				}
 				catch (ClassNotFoundException e) 
 				{
-					_logger.error(e);
+					//_logger.error(e);
 					e.printStackTrace();
 				}                
 			}
 		}
 		catch (SocketException e1)
 		{
-			_logger.error(e1);
+			//_logger.error(e1);
 			e1.printStackTrace();
 		}
 	}

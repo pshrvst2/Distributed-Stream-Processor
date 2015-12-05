@@ -57,6 +57,7 @@ public class BoltAggregateWorkerThread extends Thread
 				{
 					if((streamline= Node._streamingList.poll()) != null)
 					{
+						System.out.println("In sink now and try to process the stream: "+ streamline);
 						//TODO the aggregate job here 
 						aggregatorApplication(streamline);	
 		

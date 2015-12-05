@@ -50,11 +50,11 @@ public class GossipSenderThread extends Thread
 			for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet()) 
 			{
 				map.put(record.getKey(), record.getValue());
-				_logger.info("packet info: id " + record.getValue().getNodeId()
+				/*_logger.info("packet info: id " + record.getValue().getNodeId()
 						+ " || time stamp: "
 						+ record.getValue().getLastRecordedTime()
 						+ " || heartbeat: " + record.getValue().getHeartBeat()
-						+ " || status: " + record.getValue().isActive());
+						+ " || status: " + record.getValue().isActive());*/
 			}
 			if (!ip2bSent.isEmpty()) 
 			{
@@ -68,8 +68,8 @@ public class GossipSenderThread extends Thread
 					dataPacket.setAddress(InetAddress.getByName(ip));
 					dataPacket.setPort(port);
 					senderSocket.send(dataPacket);
-					_logger.info("Sent packet form machine ip : " + _machineIp
-							+ " to machine ip : " + ip);
+					/*_logger.info("Sent packet form machine ip : " + _machineIp
+							+ " to machine ip : " + ip);*/
 				}
 			}
 			// _logger.info("Sender thread is activated! sending ends");
@@ -79,12 +79,12 @@ public class GossipSenderThread extends Thread
 		} 
 		catch (SocketException e1) 
 		{
-			_logger.error(e1);
+			//_logger.error(e1);
 			e1.printStackTrace();
 		} 
 		catch (Exception e) 
 		{
-			_logger.error(e);
+			//_logger.error(e);
 			e.printStackTrace();
 		}
 

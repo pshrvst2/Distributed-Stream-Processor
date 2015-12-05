@@ -37,15 +37,13 @@ public class SpoutStarter
 				readStream();
 				// check whether the stream list elements have all been distributed by the sport worker 
 				
-				// try to start to listen to the aggregator bolt to detect whether the job has been done! 
-				Thread JobDoneListener = new JobDoneListener();
-				JobDoneListener.start();
 				
 				while (Node._streamingList.size()!=0)
 				{
 					//_logger.info("There are still "+Node._streamingList.size()+" has been waiting for distrubted....");
 				}
 				Node._streamReadingStop = true;
+				System.out.println("Stream concurrent list is empty now, all the message should have been sent out ");
 			}
 			
 		}

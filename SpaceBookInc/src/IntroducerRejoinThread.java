@@ -20,7 +20,7 @@ import org.apache.log4j.Logger;
  */
 public class IntroducerRejoinThread extends Thread {
 
-	public Logger _logger = Logger.getLogger(IntroducerRejoinThread.class);
+//	public Logger _logger = Logger.getLogger(IntroducerRejoinThread.class);
 
 	public IntroducerRejoinThread() {
 		// TODO Auto-generated constructor stub
@@ -45,7 +45,7 @@ public class IntroducerRejoinThread extends Thread {
 
 	public void pingIntroducer()
 	{
-		_logger.info("Ping Introducer begins.");
+		//_logger.info("Ping Introducer begins.");
 		DatagramSocket socket = null;
 		try
 		{
@@ -73,19 +73,19 @@ public class IntroducerRejoinThread extends Thread {
 		}
 		catch(SocketException ex)
 		{
-			_logger.error(ex);
-			ex.printStackTrace();
+			//_logger.error(ex);
+		//	ex.printStackTrace();
 		}
 		catch(IOException ioExcep)
 		{
-			_logger.error(ioExcep);
-			ioExcep.printStackTrace();
+		//	_logger.error(ioExcep);
+		//	ioExcep.printStackTrace();
 		} 
 		finally
 		{
 			if(socket != null)
 				socket.close();
-			_logger.info("Exiting from the method pingIntroducer.");
+			//_logger.info("Exiting from the method pingIntroducer.");
 		}
 	}
 }

@@ -61,7 +61,9 @@ public class BoltFilterWorkerThread extends Thread
 				}
 				
 				// TODO we should send an end message to the aggregate bolt notify it the streaming is over. 
-				out.println(Node._spoutStreammingStopMsg);
+				out.println(Node._streammingStopMsg);
+				
+				System.out.println("Filter bolt stop sending out stream and stop message has been send out to "+receiverId);
 				// TODO we should wait for the crane job done message from bolt-sink to notify the spout that the whole process has been accomplished 
 				/*
 				while ((returnStr = in.readLine()) != null) 

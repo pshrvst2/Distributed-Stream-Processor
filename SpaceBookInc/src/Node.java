@@ -57,7 +57,7 @@ public class Node
 	public static boolean _craneRoleListenerThreadStop =false;
 	public final static String _craneRoleMessage = "New aggregator :";
 	public final static String _craneBoltListenningMsg = "Listening";
-	public final static String _spoutStreammingStopMsg ="##### streamming stop ######";
+	public final static String _streammingStopMsg ="##### streamming stop ######";
 	public final static String _jobIsCompletedMsg = "######### Job has been accomplished ######";
 	
 	public final static int _TCPPortForCraneRole = 3000; 
@@ -329,12 +329,12 @@ public class Node
 		catch(SocketException ex)
 		{
 			_logger.error(ex);
-			ex.printStackTrace();
+			//ex.printStackTrace();
 		}
 		catch(IOException ioExcep)
 		{
 			_logger.error(ioExcep);
-			ioExcep.printStackTrace();
+			//ioExcep.printStackTrace();
 		} 
 		finally
 		{
