@@ -38,7 +38,6 @@ public class CraneRoleSenderThread extends Thread{
 				PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 				out.println(message);
 				
-				// TODO ask piyush see if we anaylize the update message from the in.readlin()
 				String returnStr = "";
 				while ((returnStr = in.readLine()) != null) 
 				{

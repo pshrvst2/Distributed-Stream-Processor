@@ -36,7 +36,7 @@ public class Node
 	public static Logger _logger = Logger.getLogger(Node.class);
 	public final static int _portSender = 2001;
 	public final static int _portReceiver = 2000;
-	public static String _introducerIp = "192.17.11.4";
+	public static String _introducerIp = "192.17.11.54";
 	public static boolean _listenerThreadStop = false;
 	public static String _machineIp = "";
 	public static String _machineId= "";
@@ -51,20 +51,23 @@ public class Node
 	public final static String _bolt_filter = "B-F";
 	//public final static String _bolt_aggregate_sink = "B-AS";
 	public final static String _bolt_aggregate ="B-A";
-	
+	public final static String _wcDel ="&&&&&";
+	public final static String _sDel ="@@@@@@";
 	
 	public static boolean _craneRoleListenerThreadStop =false;
 	public final static String _craneRoleMessage = "New aggregator :";
 	public final static String _craneBoltListenningMsg = "Listening";
-	public final static String _spoutSteammingStopMsg ="##### streamming stop ######";
+	public final static String _spoutStreammingStopMsg ="##### streamming stop ######";
+	public final static String _jobIsCompletedMsg = "######### Job has been accomplished ######";
 	
 	public final static int _TCPPortForCraneRole = 3000; 
 	public final static int _TCPPortForStreaming =3001;
 	
 	public static boolean _streamReadingStop =false;
-	final static String _streamFilePath = "/home/xchen135/stream/";
+	public static boolean _jobIsCompleted = false;
+	final static String _streamFilePath = "/home/xchen135/Desktop/";
 	final static String _resultFilePath = "/home/xchen135/result/";
-	final static String _streamFileName = "Streaming data";
+	final static String _streamFileName = "StreamingData.txt";
 	final static String _resultFileName = "Result";
 	//public static List<NodeData> _gossipList = Collections.synchronizedList(new ArrayList<NodeData>());
 	// Thread safe data structure needed to store the details of all the machines in the 
@@ -72,6 +75,8 @@ public class Node
 	public static ConcurrentHashMap<String, NodeData> _gossipMap = new ConcurrentHashMap<String, NodeData>();
 	// steaming list used for local storage of the streaming 
 	public static ConcurrentLinkedQueue<String> _streamingList = new ConcurrentLinkedQueue<String>();
+	// hasmap for the aggregation result
+	public static ConcurrentHashMap<String, Integer> _resultMap = new ConcurrentHashMap<String, Integer>();
 	
 	/**
 	 * @param args To ensure : Server init has to be command line.
@@ -151,7 +156,7 @@ public class Node
 				// we will check this occasionally
 				_schedulerService.scheduleAtFixedRate(new IntroducerRejoinThread(), 0, 5000, unit);
 			}
-
+			
 			flag = true;
 			while(flag)
 			{

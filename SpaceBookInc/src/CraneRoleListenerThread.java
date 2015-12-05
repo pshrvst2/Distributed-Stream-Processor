@@ -18,7 +18,7 @@ public class CraneRoleListenerThread extends Thread
 	public CraneRoleListenerThread(Socket socket, String ip) 
 	{
 		this.clientSocket = socket;
-		this.setIpAddr(ip);
+		this.ipAddr = ip;
 	}
 
 	public void run()
@@ -44,10 +44,28 @@ public class CraneRoleListenerThread extends Thread
 				if(Node._machineId.equalsIgnoreCase(aggrId))
 				{
 					// start the aggregator listener here
+					// activateAggregatorWorkers
+					
+					// Use introducer's id, since we need to return the result to the introducer. 
+					Thread BoltAggregateWorkerThread = new BoltAggregateWorkerThread(Node._TCPPortForStreaming,Node._introducerIp);
+					BoltAggregateWorkerThread.start();
+					
+					// start to listen to the filter bolts
+					Thread BoltListener = new BoltListener();
+					BoltListener.start();
+					
 				}
 				else
 				{
 					// start the filter listener here 
+					// activateFilterWorkers
+					Thread BoltFilterWorkerThread = new BoltFilterWorkerThread(Node._TCPPortForStreaming, aggrId);
+					BoltFilterWorkerThread.start();
+					
+					// start to listen to the spout
+					Thread BoltListener = new BoltListener();
+					BoltListener.start();
+					
 				}
 				UpdateCraneRoleforLocal(aggrId);
 				pw.println(Node._craneBoltListenningMsg);
@@ -80,22 +98,6 @@ public class CraneRoleListenerThread extends Thread
 			}
 			temp.setListening(true);
 		}
-	}
-
-	public int getPort() {
-		return port;
-	}
-
-	public void setPort(int port) {
-		this.port = port;
-	}
-
-	public String getIpAddr() {
-		return ipAddr;
-	}
-
-	public void setIpAddr(String ipAddr) {
-		this.ipAddr = ipAddr;
 	}
 
 }
