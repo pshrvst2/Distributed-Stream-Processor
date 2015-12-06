@@ -64,6 +64,10 @@ public class JobDoneListenerThread extends Thread
 			long diff = Node._finishTime - Node._startTime;
 			System.out.println(" The total time used for the tasked is : "+ diff + " ms");
 			System.out.println("***********************************************************");
+			
+			// call the reset crane role method to tell all the member to reset the role
+			resetCraneRole();
+			
 			reader.close();
 			clientSocket.close();
 			Node._jobIsCompleted = true;
@@ -74,7 +78,7 @@ public class JobDoneListenerThread extends Thread
 		}
 	}
 	
-	public static void reSetCraneRole()
+	public static void resetCraneRole()
 	{
 		/* 
 		 * clean up the role assignment when task has been done
