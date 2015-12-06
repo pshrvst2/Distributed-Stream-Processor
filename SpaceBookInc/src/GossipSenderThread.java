@@ -80,12 +80,12 @@ public class GossipSenderThread extends Thread
 		catch (SocketException e1) 
 		{
 			//_logger.error(e1);
-			e1.printStackTrace();
+			//e1.printStackTrace();
 		} 
 		catch (Exception e) 
 		{
 			//_logger.error(e);
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 
 	}

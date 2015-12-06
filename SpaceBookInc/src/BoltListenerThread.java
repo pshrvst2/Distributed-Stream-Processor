@@ -21,11 +21,21 @@ public class BoltListenerThread extends Thread
 	public static Logger _logger = Logger.getLogger(BoltListenerThread.class);
 	private String ipAddr = null;
 	private Socket clientSocket = null;
+	private int filterCounts =0;
 
 	public BoltListenerThread(Socket socket, String ip) 
 	{
 		this.clientSocket = socket;
 		this.ipAddr= ip;
+		for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet())
+		{
+			if(record.getValue().getType().equals(Node._bolt_filter))
+			{
+				filterCounts++;
+			}
+		}
+		_logger.info("Filter counts : "+ filterCounts);
+		System.out.println(" They system has "+filterCounts + " Filter bolt! ");
 	}
 
 	public void run()
@@ -33,17 +43,41 @@ public class BoltListenerThread extends Thread
 		_logger.info("craneRoleListenerThread initialzing....");
 		try 
 		{
-
+			
 			String message = "";
 			BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 			PrintWriter pw = new PrintWriter(clientSocket.getOutputStream(),true);	
+			
 			// TODO: may not need a while loop 
 			while((message = reader.readLine())!=null )
 			{
 				// receive stream message from spout. stop the worker for writing the stream into the concurrent list
 				if(message.equals(Node._streammingStopMsg))
 				{
-					break;
+					// If we were filter, break from here when we received a stop message from spout
+					if(Node._gossipMap.get(Node._machineId).getType().equals(Node._bolt_filter))
+					{
+						break;
+					}
+					
+					// If we were aggregator, count down the stop messages from filter, break from here only received exact same amount of message. 
+					else if(Node._gossipMap.get(Node._machineId).getType().equals(Node._bolt_aggregate))
+					{
+						// the last one
+						if(filterCounts ==1)
+						{
+							_logger.info(" Filter job are all done !!!");
+							System.out.println("Filters are all done, now only need to wait for aggregator to finish the rest");
+							break;
+						}
+						else
+						{
+							filterCounts--;
+							_logger.info(" Filter counts decrease by one and now we have "+ filterCounts +" still working !");
+							System.out.println(" !!!! still remaining ["+filterCounts+"] filters to accomplish the filter job");
+						}
+					}
+					
 				}
 				else
 				{

@@ -41,20 +41,27 @@ public class CraneRoleListenerThread extends Thread
 			else if(message.contains(Node._craneRoleMessage))
 			{
 				String aggrId = message.substring(message.indexOf("[")+1, message.indexOf("]"));
+				
+				UpdateCraneRoleforLocal(aggrId);
+				
 				if(Node._machineId.equalsIgnoreCase(aggrId))
 				{
-					// start the aggregator listener here
-					// activateAggregatorWorkers
+					
 					
 					// start to listen to the filter bolts
 					Thread BoltListener = new BoltListener();
 					BoltListener.start();
+					
+					// need wait for the listening server up before we try to start a tcp connection
 					try {
 			            Thread.sleep(1000);
 			        }
 			        catch (InterruptedException ie) {
 			            // Handle the exception
 			        }
+					
+					// start the aggregator listener here
+					// activateAggregatorWorkers
 					// Use introducer's id, since we need to return the result to the introducer. 
 					Thread BoltAggregateWorkerThread = new BoltAggregateWorkerThread(Node._TCPPortForJobReport,Node._introducerIp);
 					BoltAggregateWorkerThread.start();
@@ -66,12 +73,15 @@ public class CraneRoleListenerThread extends Thread
 					// start to listen to the spout
 					Thread BoltListener = new BoltListener();
 					BoltListener.start();
+					
+					// need wait for the listening server up before we try to start a tcp connection
 					try {
 			            Thread.sleep(1000);
 			        }
 			        catch (InterruptedException ie) {
 			            // Handle the exception
 			        }
+					
 					// start the filter listener here 
 					// activateFilterWorkers
 					Thread BoltFilterWorkerThread = new BoltFilterWorkerThread(Node._TCPPortForStreaming, aggrId);
@@ -80,7 +90,6 @@ public class CraneRoleListenerThread extends Thread
 					
 					
 				}
-				UpdateCraneRoleforLocal(aggrId);
 				pw.println(Node._craneBoltListenningMsg);
 			}
 			
