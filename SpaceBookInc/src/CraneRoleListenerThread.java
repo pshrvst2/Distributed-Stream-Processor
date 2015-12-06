@@ -60,6 +60,8 @@ public class CraneRoleListenerThread extends Thread
 			            // Handle the exception
 			        }
 					
+					//!!!! should set streamReadingStop flage as false, because if it the second time, the flage was on
+					Node._streamReadingStop=false;
 					// start the aggregator listener here
 					// activateAggregatorWorkers
 					// Use introducer's id, since we need to return the result to the introducer. 
