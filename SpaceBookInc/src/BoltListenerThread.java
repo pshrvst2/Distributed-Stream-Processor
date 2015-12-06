@@ -55,7 +55,7 @@ public class BoltListenerThread extends Thread
 			//turn off the filter sending thread or aggregate bolt worker, since the job are all done here!  
 			while (Node._streamingList.size()!=0)
 			{
-				//_logger.info("There are still "+Node._streamingList.size()+" has been waiting for distrubted....");
+				_logger.info("There are still "+Node._streamingList.size()+" has been waiting for distrubted....");
 			}
 			Node._streamReadingStop = true;
 			_logger.info("!!!!!!!!!!!!!!!!!!!!_streamReadingStop");
