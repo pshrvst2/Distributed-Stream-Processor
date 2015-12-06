@@ -53,6 +53,10 @@ public class Node
 	public final static String _bolt_aggregate ="B-A";
 	public final static String _wcDel ="&&&&&";
 	public final static String _sDel ="@@@@@@";
+	public static long _startTime =0;
+	public static long _finishTime =0;
+	
+	
 	
 	public static boolean _craneRoleListenerThreadStop =false;
 	public final static String _craneRoleMessage = "New aggregator :";

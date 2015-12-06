@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Date;
 import java.util.HashMap;
 
 import org.apache.log4j.Logger;
@@ -33,11 +34,12 @@ public class SpoutStarter
 			{
 				// start the thread to send out the buffer here before the read stream
 				// make sure it won't send out anything if the stream is empty
-				activateSpoutWorkers();		
+				activateSpoutWorkers();						
 				readStream();
-				// check whether the stream list elements have all been distributed by the sport worker 
+				// start the timer to log the start time
+				Node._startTime = new Date().getTime();
 				
-				
+				// check whether the stream list elements have all been distributed by the sport worker 				
 				while (Node._streamingList.size()!=0)
 				{
 					//_logger.info("There are still "+Node._streamingList.size()+" has been waiting for distrubted....");

@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.Date;
 
 import org.apache.log4j.Logger;
 
@@ -51,12 +52,17 @@ public class JobDoneListenerThread extends Thread
 					}
 					else
 					{
+						System.out.println("***********************************************************");
 						System.out.println("The job has been accomplished, the result as following: ");
 						System.out.println(message);
 						resultTitleDisplay = true;
 					}
 				}
 			}
+			Node._finishTime =new Date().getTime();
+			long diff = Node._finishTime - Node._startTime;
+			System.out.println(" The total time used for the tasked is : "+ diff + " ms");
+			System.out.println("***********************************************************");
 			reader.close();
 			clientSocket.close();
 		}
