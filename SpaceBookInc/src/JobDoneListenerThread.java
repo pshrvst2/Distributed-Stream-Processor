@@ -64,31 +64,6 @@ public class JobDoneListenerThread extends Thread
 			long diff = Node._finishTime - Node._startTime;
 			System.out.println(" The total time used for the tasked is : "+ diff + " ms");
 			System.out.println("***********************************************************");
-			/* 
-			 * clean up the role assignment when task has been done
-			 * Need to re-assign the role if user wanna start a new task
-			 * Using this desgin to in favor for the fault tolerance function
-			 * TODO maybe have a better design in the future 
-			*/
-			for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet())
-			{
-				if(!record.getValue().getType().equals(Node._spout))
-				{
-					record.getValue().setType("None");
-					record.getValue().setListening(false);
-					
-					// send out the reset role message to all the member to reset their role as None.
-					Thread CraneRoleSenderThread = new CraneRoleSenderThread(Node._TCPPortForCraneRole, record.getKey(), Node._craneRoleResetMessage);
-					CraneRoleSenderThread.start();
-				}
-			}
-			System.out.println("*** NOTE: role has been clean up, please assign role before start a new job *** ");
-			// send out the reset role message to all the member to reset their role as None.
-			
-			
-			
-			
-			
 			reader.close();
 			clientSocket.close();
 			Node._jobIsCompleted = true;
@@ -97,6 +72,30 @@ public class JobDoneListenerThread extends Thread
 			// TODO Auto-generated catch block
 			//e.printStackTrace();
 		}
+	}
+	
+	public static void reSetCraneRole()
+	{
+		/* 
+		 * clean up the role assignment when task has been done
+		 * Need to re-assign the role if user wanna start a new task
+		 * Using this desgin to in favor for the fault tolerance function
+		 * TODO maybe have a better design in the future 
+		*/
+		for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet())
+		{
+			if(!record.getValue().getType().equals(Node._spout))
+			{
+				record.getValue().setType("None");
+				record.getValue().setListening(false);
+				
+				// send out the reset role message to all the member to reset their role as None.
+				Thread CraneRoleSenderThread = new CraneRoleSenderThread(Node._TCPPortForCraneRole, record.getKey(), Node._craneRoleResetMessage);
+				CraneRoleSenderThread.start();
+			}
+		}
+		System.out.println("*** NOTE: role has been clean up, please assign role before start a new job *** ");
+		// send out the reset role message to all the member to reset their role as None.
 	}
 
 }
