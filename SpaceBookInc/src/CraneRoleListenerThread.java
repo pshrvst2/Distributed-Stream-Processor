@@ -71,6 +71,8 @@ public class CraneRoleListenerThread extends Thread
 				}
 				else
 				{
+					//!!!! should set streamReadingStop flage as false, because if it the second time, the flage was on
+					Node._streamReadingStop=false;
 					
 					// start to listen to the spout
 					Thread BoltListener = new BoltListener();
@@ -97,6 +99,8 @@ public class CraneRoleListenerThread extends Thread
 			else if(message.contains(Node._craneRoleResetMessage))
 			{
 				ResetCraneRoleforLocal();
+				
+				// TODO should be able to remove this, since we set this flag when they start to listen the role
 				Node._jobIsCompleted = false;
 				Node._streamReadingStop = false;
 				

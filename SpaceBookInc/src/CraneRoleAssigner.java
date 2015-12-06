@@ -18,6 +18,9 @@ public class CraneRoleAssigner {
 			int serverCounts = 0;
 			serverCounts = Node._gossipMap.size();
 			
+			// reset the flag as flase
+			Node._streamReadingStop = false;
+			
 			// TODO change this logic later, make it more generic 
 			if(serverCounts >2)
 			{
