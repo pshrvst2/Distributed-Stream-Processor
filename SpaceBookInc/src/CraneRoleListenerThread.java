@@ -97,6 +97,9 @@ public class CraneRoleListenerThread extends Thread
 			else if(message.contains(Node._craneRoleResetMessage))
 			{
 				ResetCraneRoleforLocal();
+				Node._jobIsCompleted = false;
+				Node._streamReadingStop = false;
+				
 			}
 			
 			pw.close();
