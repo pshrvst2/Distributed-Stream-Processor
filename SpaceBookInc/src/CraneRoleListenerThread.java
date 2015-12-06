@@ -46,25 +46,38 @@ public class CraneRoleListenerThread extends Thread
 					// start the aggregator listener here
 					// activateAggregatorWorkers
 					
-					// Use introducer's id, since we need to return the result to the introducer. 
-					Thread BoltAggregateWorkerThread = new BoltAggregateWorkerThread(Node._TCPPortForJobReport,Node._introducerIp);
-					BoltAggregateWorkerThread.start();
-					
 					// start to listen to the filter bolts
 					Thread BoltListener = new BoltListener();
 					BoltListener.start();
-					
+					try {
+			            Thread.sleep(1000);
+			        }
+			        catch (InterruptedException ie) {
+			            // Handle the exception
+			        }
+					// Use introducer's id, since we need to return the result to the introducer. 
+					Thread BoltAggregateWorkerThread = new BoltAggregateWorkerThread(Node._TCPPortForJobReport,Node._introducerIp);
+					BoltAggregateWorkerThread.start();
+						
 				}
 				else
 				{
+					
+					// start to listen to the spout
+					Thread BoltListener = new BoltListener();
+					BoltListener.start();
+					try {
+			            Thread.sleep(1000);
+			        }
+			        catch (InterruptedException ie) {
+			            // Handle the exception
+			        }
 					// start the filter listener here 
 					// activateFilterWorkers
 					Thread BoltFilterWorkerThread = new BoltFilterWorkerThread(Node._TCPPortForStreaming, aggrId);
 					BoltFilterWorkerThread.start();
 					
-					// start to listen to the spout
-					Thread BoltListener = new BoltListener();
-					BoltListener.start();
+					
 					
 				}
 				UpdateCraneRoleforLocal(aggrId);
