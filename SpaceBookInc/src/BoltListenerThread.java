@@ -21,21 +21,12 @@ public class BoltListenerThread extends Thread
 	public static Logger _logger = Logger.getLogger(BoltListenerThread.class);
 	private String ipAddr = null;
 	private Socket clientSocket = null;
-	private int filterCounts =0;
+	//private int filterCounts =0;
 
 	public BoltListenerThread(Socket socket, String ip) 
 	{
 		this.clientSocket = socket;
 		this.ipAddr= ip;
-		for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet())
-		{
-			if(record.getValue().getType().equals(Node._bolt_filter))
-			{
-				filterCounts++;
-			}
-		}
-		_logger.info("Filter counts : "+ filterCounts);
-		System.out.println(" They system has "+filterCounts + " Filter bolt! ");
 	}
 
 	public void run()
@@ -47,7 +38,16 @@ public class BoltListenerThread extends Thread
 			String message = "";
 			BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 			PrintWriter pw = new PrintWriter(clientSocket.getOutputStream(),true);	
-			
+			int filterCounts =0;
+			for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet())
+			{
+				if(record.getValue().getType().equals(Node._bolt_filter))
+				{
+					filterCounts++;
+				}
+			}
+			_logger.info("Filter counts : "+ filterCounts);
+			System.out.println(" They system has "+filterCounts + " Filter bolt! ");
 			// TODO: may not need a while loop 
 			while((message = reader.readLine())!=null )
 			{
