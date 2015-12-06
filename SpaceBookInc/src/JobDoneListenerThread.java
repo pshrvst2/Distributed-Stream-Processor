@@ -76,12 +76,22 @@ public class JobDoneListenerThread extends Thread
 				{
 					record.getValue().setType("None");
 					record.getValue().setListening(false);
+					
+					// send out the reset role message to all the member to reset their role as None.
+					Thread CraneRoleSenderThread = new CraneRoleSenderThread(Node._TCPPortForCraneRole, record.getKey(), Node._craneRoleResetMessage);
+					CraneRoleSenderThread.start();
 				}
 			}
 			System.out.println("*** NOTE: role has been clean up, please assign role before start a new job *** ");
+			// send out the reset role message to all the member to reset their role as None.
+			
+			
+			
+			
 			
 			reader.close();
 			clientSocket.close();
+			Node._jobIsCompleted = true;
 		}
 		catch (IOException e) {
 			// TODO Auto-generated catch block

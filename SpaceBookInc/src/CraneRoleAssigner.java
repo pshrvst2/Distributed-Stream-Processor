@@ -33,6 +33,7 @@ public class CraneRoleAssigner {
 				}
 				
 				// try to start to listen to the aggregator bolt to detect whether the job has been done! 
+				Node._jobIsCompleted = false;
 				Thread JobDoneListener = new JobDoneListener();
 				JobDoneListener.start();
 				// take out the introducer

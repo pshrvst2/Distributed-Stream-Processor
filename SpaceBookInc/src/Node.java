@@ -60,6 +60,7 @@ public class Node
 	
 	public static boolean _craneRoleListenerThreadStop =false;
 	public final static String _craneRoleMessage = "New aggregator :";
+	public final static String _craneRoleResetMessage = "Rest the role.";
 	public final static String _craneBoltListenningMsg = "Listening";
 	public final static String _streammingStopMsg ="##### streamming stop ######";
 	public final static String _jobIsCompletedMsg = "######### Job has been accomplished ######";

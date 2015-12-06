@@ -8,6 +8,11 @@ import java.net.SocketException;
 import org.apache.log4j.Logger;
 
 
+/*
+ * This Thread should only be called by the introducer.
+ * 
+ */
+
 public class CraneRoleSenderThread extends Thread{
 
 	public static Logger _logger = Logger.getLogger(CraneRoleSenderThread.class);
@@ -39,15 +44,21 @@ public class CraneRoleSenderThread extends Thread{
 				out.println(message);
 				
 				String returnStr = "";
-				while ((returnStr = in.readLine()) != null) 
+				
+				//Introducer should only update the listing value when it is sending out the role message
+				// if it's sending out reset message, introducer should not set them listening value as true
+				if(message.contains(Node._craneRoleMessage))
 				{
-					_logger.info(" Received from "+receiverId+" message: " + returnStr);
-					if(returnStr.equals(Node._craneBoltListenningMsg))
+					while ((returnStr = in.readLine()) != null) 
 					{
-						Node._gossipMap.get(receiverId).setListening(true);
-						//Node._gossipMap.get(receiverId).setType(Node.);
+						_logger.info(" Received from "+receiverId+" message: " + returnStr);
+						if(returnStr.equals(Node._craneBoltListenningMsg))
+						{
+							Node._gossipMap.get(receiverId).setListening(true);
+						}
 					}
 				}
+				
 				
 				out.close();
 				in.close();

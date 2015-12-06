@@ -92,6 +92,10 @@ public class CraneRoleListenerThread extends Thread
 				}
 				pw.println(Node._craneBoltListenningMsg);
 			}
+			else if(message.contains(Node._craneRoleResetMessage))
+			{
+				ResetCraneRoleforLocal();
+			}
 			
 			pw.close();
 			reader.close();
@@ -119,6 +123,19 @@ public class CraneRoleListenerThread extends Thread
 				temp.setType(Node._bolt_filter);
 			}
 			temp.setListening(true);
+		}
+	}
+	
+	public void ResetCraneRoleforLocal()
+	{
+		for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet())
+		{
+			// set the crane role as None for all the memeber except for the introducer
+			if(!record.getKey().contains(Node._introducerIp))
+			{
+				record.getValue().setType("None");
+				record.getValue().setListening(false);
+			}
 		}
 	}
 
