@@ -36,7 +36,7 @@ public class Node
 	public static Logger _logger = Logger.getLogger(Node.class);
 	public final static int _portSender = 2001;
 	public final static int _portReceiver = 2000;
-	public static String _introducerIp = "192.17.11.2";
+	public static String _introducerIp = "192.17.11.6";
 	public static boolean _listenerThreadStop = false;
 	public static String _machineIp = "";
 	public static String _machineId= "";
@@ -209,11 +209,13 @@ public class Node
 					_logger.info("Terminating");
 					_listenerThreadStop = true;
 					_craneRoleListenerThreadStop = true;
+					_streamReadingStop = true;
+					_jobIsCompleted = true;
 					Node._gossipMap.get(_machineId).setActive(false);
 					Node._gossipMap.get(_machineId).increaseHeartBeat();
 					flag = false;
 					Thread.sleep(1001);
-					_schedulerService.shutdownNow();					
+					_schedulerService.shutdownNow();	
 				}
 				else if(userCmd.equalsIgnoreCase("info"))
 				{
