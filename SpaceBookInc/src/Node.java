@@ -72,8 +72,8 @@ public class Node
 	
 	public static boolean _streamReadingStop =false;
 	public static boolean _jobIsCompleted = false;
-	final static String _streamFilePath = "/home/xchen135/Desktop/";
-	final static String _resultFilePath = "/home/xchen135/result/";
+	final static String _streamFilePath = "/home/xchen135/";
+	final static String _resultFilePath = "/home/xchen135/";
 	final static String _1_FilterAggrFileName = "StreamingData.txt";
 	final static String _resultFileName = "Result";
 	final static String _2_WordCountFileName = "websitesData.txt";
