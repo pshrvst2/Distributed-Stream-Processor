@@ -31,10 +31,10 @@ public class ListScanThread extends Thread {
 			{
 				if(!record.getValue().isActive() & ((System.currentTimeMillis() - record.getValue().getLastRecordedTime()) >= Node._TCleanUpInMilliSec))
 				{
+					//failure dected here 
+					System.out.println(" Failure detected on mechine ["+nodeId+"]");
 					Node._gossipMap.remove(nodeId);
-					/*_logger.info("Deleting the machine: "+nodeId+" from the membership list! at time "
-							+System.currentTimeMillis());*/
-					
+					Node.forceReStartAll();
 				}
 				else if(record.getValue().isActive() & ((System.currentTimeMillis() - record.getValue().getLastRecordedTime()) >= Node._TfailInMilliSec))
 				{
