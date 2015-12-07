@@ -50,7 +50,7 @@ public class CraneRoleListenerThread extends Thread
 				//TODO should not have any error here, but should use try and catch block in the future
 				Node._gossipMap.get(Node._machineId).setApplicationNum(Integer.parseInt(appNum));
 				
-				UpdateCraneRoleforLocal(aggrId);
+				UpdateCraneRoleforLocal(aggrId, appNum);
 				
 				
 				if(Node._machineId.equalsIgnoreCase(aggrId))
@@ -131,7 +131,7 @@ public class CraneRoleListenerThread extends Thread
 		}
 	}
 
-	public void UpdateCraneRoleforLocal(String aggrNum)
+	public void UpdateCraneRoleforLocal(String aggrNum, String appNum)
 	{
 		for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet())
 		{
@@ -145,6 +145,7 @@ public class CraneRoleListenerThread extends Thread
 				temp.setType(Node._bolt_filter);
 			}
 			temp.setListening(true);
+			temp.setApplicationNum(Integer.parseInt(appNum));
 		}
 	}
 	
