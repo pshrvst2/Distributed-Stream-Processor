@@ -45,9 +45,12 @@ public class CraneRoleListenerThread extends Thread
 				Node._faultToleranceStop=false;
 				
 				String aggrId = message.substring(message.indexOf("[")+1, message.indexOf("]"));
+				// set the application number here to tell the bolt which application should be run
+				String appNum = message.substring(message.indexOf("{")+1, message.indexOf("}"));
+				//TODO should not have any error here, but should use try and catch block in the future
+				Node._gossipMap.get(Node._machineId).setApplicationNum(Integer.parseInt(appNum));
 				
 				UpdateCraneRoleforLocal(aggrId);
-				
 				
 				
 				if(Node._machineId.equalsIgnoreCase(aggrId))
@@ -114,8 +117,6 @@ public class CraneRoleListenerThread extends Thread
 				// To stop all the job if we receive the role re assign message. TODO: make sure we will turn this on whenever the new role established 
 				Node._faultToleranceStop = true;
 				// this set of flags use to force any reading thread or sending thread come out of the while loop and end the process 
-				
-				
 			}
 			
 			pw.close();

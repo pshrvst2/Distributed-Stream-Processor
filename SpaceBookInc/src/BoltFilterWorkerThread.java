@@ -91,23 +91,45 @@ public class BoltFilterWorkerThread extends Thread
 	{
 				
 		String words[] = s.split("\\s");
-		//TODO just for the fast testing, need to remove this later 
-		// clean up the map before we wanna use it
-		for(Entry<String, Integer> entry : wordCountMap.entrySet())
-		{
-			wordCountMap.put(entry.getKey(), 0);
-		}
 		
-		for(String eachWord : words)
+		if(Node._gossipMap.get(Node._machineId).getApplicationNum() == 1)
 		{
-			Integer count = 0;
-			if(wordCountMap.containsKey(eachWord))
+
+			//TODO just for the fast testing, need to remove this later 
+			// clean up the map before we wanna use it
+			for(Entry<String, Integer> entry : wordCountMap.entrySet())
 			{
-				count = wordCountMap.get(eachWord);
-				wordCountMap.put(eachWord, ++count);
+				wordCountMap.put(entry.getKey(), 0);
+			}
+			
+			for(String eachWord : words)
+			{
+				Integer count = 0;
+				if(wordCountMap.containsKey(eachWord))
+				{
+					count = wordCountMap.get(eachWord);
+					wordCountMap.put(eachWord, ++count);
+				}
 			}
 		}
-		
+		else if (Node._gossipMap.get(Node._machineId).getApplicationNum() == 2)
+		{
+			// clean up the application 1 filter map
+			wordCountMap.clear();
+			for(String eachWord : words)
+			{
+				Integer count = 0;
+				if(wordCountMap.containsKey(eachWord))
+				{
+					count = wordCountMap.get(eachWord);
+					wordCountMap.put(eachWord, ++count);
+				}
+				else
+				{
+					wordCountMap.put(eachWord, 1);
+				}
+			}
+		}	
 		
 		StringBuffer sb = new StringBuffer();
 		for(Entry<String, Integer> entry : wordCountMap.entrySet())

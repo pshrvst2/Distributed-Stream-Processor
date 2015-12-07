@@ -13,47 +13,55 @@ public class CraneRoleAssigner {
 	
 	public void assignRole()
 	{
-		if(ip.equals(Node._introducerIp))
+		if(Node._gossipMap.get(Node._machineId).getApplicationNum() ==0)
 		{
-			int serverCounts = 0;
-			serverCounts = Node._gossipMap.size();
-			
-			// reset the flag as flase
-			Node._streamReadingStop = false;
-			// reset the flag as true 
-			// this is for spout side
-			Node._faultToleranceStop = false;
-			
-			// TODO change this logic later, make it more generic 
-			if(serverCounts >2)
-			{
-				ArrayList<String> blotIds = new ArrayList<String>();
-				for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet())
-				{
-					NodeData temp = record.getValue();
-					// put the all the ids excpet for the introducers
-					if(temp.getType().equals("None"))
-					{
-						blotIds.add(record.getKey());
-					}
-				}
-				
-				// try to start to listen to the aggregator bolt to detect whether the job has been done! 
-				Node._jobIsCompleted = false;
-				Thread JobDoneListener = new JobDoneListener();
-				JobDoneListener.start();
-				// take out the introducer
-				updateCraneRole(blotIds,serverCounts-1);				
-			}
-			else
-			{
-				System.out.println("There is no enough memeber on the list, please try again later");
-			}
+			System.out.println("Please select a application first! ");
 		}
 		else
 		{
-			System.out.println("You don't have the previlige to assign crane role");
+			if(ip.equals(Node._introducerIp))
+			{
+				int serverCounts = 0;
+				serverCounts = Node._gossipMap.size();
+				
+				// reset the flag as flase
+				Node._streamReadingStop = false;
+				// reset the flag as true 
+				// this is for spout side
+				Node._faultToleranceStop = false;
+				
+				// TODO change this logic later, make it more generic 
+				if(serverCounts >2)
+				{
+					ArrayList<String> blotIds = new ArrayList<String>();
+					for (HashMap.Entry<String, NodeData> record : Node._gossipMap.entrySet())
+					{
+						NodeData temp = record.getValue();
+						// put the all the ids excpet for the introducers
+						if(temp.getType().equals("None"))
+						{
+							blotIds.add(record.getKey());
+						}
+					}
+					
+					// try to start to listen to the aggregator bolt to detect whether the job has been done! 
+					Node._jobIsCompleted = false;
+					Thread JobDoneListener = new JobDoneListener();
+					JobDoneListener.start();
+					// take out the introducer
+					updateCraneRole(blotIds,serverCounts-1);				
+				}
+				else
+				{
+					System.out.println("There is no enough memeber on the list, please try again later");
+				}
+			}
+			else
+			{
+				System.out.println("You don't have the previlige to assign crane role");
+			}
 		}
+		
 	}
 	
 	
@@ -84,7 +92,7 @@ public class CraneRoleAssigner {
 	
 	public void CraneRoleThreadStarter(String id, String aggrId)
 	{
-		Thread CraneRoleSenderThread = new CraneRoleSenderThread(Node._TCPPortForCraneRole, id, Node._craneRoleMessage+"["+aggrId+"]");
+		Thread CraneRoleSenderThread = new CraneRoleSenderThread(Node._TCPPortForCraneRole, id, Node._craneRoleMessage+"["+aggrId+"]+{"+Node._gossipMap.get(Node._machineId).getApplicationNum()+"}");
 		CraneRoleSenderThread.start();
 	}
 }

@@ -100,16 +100,32 @@ public class SpoutStarter
 	{
 		try 
 		{
-			FileReader fileReader = new FileReader(Node._streamFilePath+Node._streamFileName);
-			BufferedReader bufReader = new BufferedReader(fileReader);
-			String line = null;
-			while((line = bufReader.readLine()) != null && !Node._faultToleranceStop)
+			if(Node._gossipMap.get(Node._machineId).getApplicationNum() == 0)
 			{
-				Node._streamingList.add(line);	
+				// This message should never display, put here just for debug
+				System.out.println( "No application has been selected!!" );
 			}
-			bufReader.close();
-			
-			
+			else
+			{
+				String fileName ="";
+				if(Node._gossipMap.get(Node._machineId).getApplicationNum() ==1)
+				{
+					fileName = Node._1_FilterAggrFileName;
+				}
+				else if(Node._gossipMap.get(Node._machineId).getApplicationNum() ==2)
+				{
+					fileName = Node._2_WordCountFileName;
+				}					
+				FileReader fileReader = new FileReader(Node._streamFilePath+fileName);
+				BufferedReader bufReader = new BufferedReader(fileReader);
+				String line = null;
+				while((line = bufReader.readLine()) != null && !Node._faultToleranceStop)
+				{
+					Node._streamingList.add(line);	
+				}
+				bufReader.close();
+				
+			}			
 		} 
 		catch (FileNotFoundException e) 
 		{

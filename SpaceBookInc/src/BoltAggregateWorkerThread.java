@@ -33,11 +33,13 @@ public class BoltAggregateWorkerThread extends Thread
 		this.introducerIp = ip;
 		this.port = port;
 		//TODO handle this on the config file
-		Node._resultMap.put("Facebook", 0);
+		/*Node._resultMap.put("Facebook", 0);
 		Node._resultMap.put("Google", 0);
 		Node._resultMap.put("Twitter", 0);
 		Node._resultMap.put("Amazon", 0);
-		Node._resultMap.put("Apple", 0);
+		Node._resultMap.put("Apple", 0);*/
+		
+		
 	}
 	
 	public void run()
@@ -100,6 +102,8 @@ public class BoltAggregateWorkerThread extends Thread
 	
 	public void aggregatorApplication(String s)
 	{
+		// clean up whatever we have before
+		Node._resultMap.clear();
 		String sentences[] = s.split(Node._sDel);
 		
 		for(String eachWCPair : sentences)
@@ -121,6 +125,11 @@ public class BoltAggregateWorkerThread extends Thread
 				
 				num += Node._resultMap.get(word);
 				Node._resultMap.replace(word, num);
+			}
+			else
+			{
+				int num = Integer.parseInt(count);
+				Node._resultMap.put(word, num);
 			}
 		}
 	}

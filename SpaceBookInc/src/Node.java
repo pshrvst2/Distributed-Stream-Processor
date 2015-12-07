@@ -74,8 +74,9 @@ public class Node
 	public static boolean _jobIsCompleted = false;
 	final static String _streamFilePath = "/home/xchen135/Desktop/";
 	final static String _resultFilePath = "/home/xchen135/result/";
-	final static String _streamFileName = "StreamingData.txt";
+	final static String _1_FilterAggrFileName = "StreamingData.txt";
 	final static String _resultFileName = "Result";
+	final static String _2_WordCountFileName = "StreamingData.txt";
 
 	// Thread safe data structure needed to store the details of all the machines in the 
 	// Gossip group. Concurrent hashmap is our best option as it can store string, nodeData. 
@@ -171,8 +172,10 @@ public class Node
 				System.out.println("Type 'list' to view the current membership list.");
 				System.out.println("Type 'quit' to quit the group and close servers");
 				System.out.println("Type 'info' to know your machine details");
+				System.out.println("Type 'app1' to select the crane application 1");
+				System.out.println("Type 'app2' to select the crane application 2");
 				System.out.println("Type 'assign' to assign the crane role to each memeber");
-				System.out.println("Type 'start' to start the crane. ");
+				System.out.println("Type 'start' to start the crane application. ");
 				System.out.println("Type 'force' to force the system to restart the work.");
 				
 				
@@ -183,7 +186,7 @@ public class Node
 					if(!_gossipMap.isEmpty())
 					{
 						String delim = "\t||\t";
-						System.out.println("*********MachineId********"+delim+"**Last Seen**"+delim+"Hearbeat"+delim+"Is Active?"+delim+"Crane Type"+delim+"is Listening?");
+						System.out.println("*********MachineId********"+delim+"**Last Seen**"+delim+"Hearbeat"+delim+"Is Active?"+delim+"Crane Type"+delim+"is Listening?"+delim+" App Num"+delim);
 						_logger.info("User want to list the current members");
 						_logger.info("*********MachineId********"+delim+"**Last Seen**"+delim+"Hearbeat"+delim+"Is Active?");
 						for (HashMap.Entry<String, NodeData> record : _gossipMap.entrySet())
@@ -194,13 +197,15 @@ public class Node
 									+delim+temp.getHeartBeat()+"\t"
 									+delim+temp.isActive()+"\t"
 									+delim+temp.getType()+"\t"
-									+delim+temp.isListening());
+									+delim+temp.isListening()+"\t"
+									+delim+temp.getApplicationNum()+"\t"+delim);
 							_logger.info(record.getKey()
 									+delim+temp.getLastRecordedTime()
 									+delim+temp.getHeartBeat()+"\t"
 									+delim+temp.isActive()+"\t"
 									+delim+temp.getType()+"\t"
-									+delim+temp.isListening());
+									+delim+temp.isListening()+"\t"
+									+delim+temp.getApplicationNum()+"\t"+delim);
 						}
 					}
 				}
@@ -234,13 +239,22 @@ public class Node
 							+delim+temp.getHeartBeat()+""
 							+delim+temp.isActive());
 				}	
+				else if(userCmd.equalsIgnoreCase("app1"))
+				{
+					
+					_gossipMap.get(_machineId).setApplicationNum(1);
+				}
+				else if(userCmd.equalsIgnoreCase("app2"))
+				{
+					_gossipMap.get(_machineId).setApplicationNum(2);
+				}
 				else if(userCmd.equalsIgnoreCase("assign"))
 				{
 					CraneRoleAssigner assigner = new CraneRoleAssigner(_machineIp);
 					assigner.assignRole();
 				}
 				else if(userCmd.equalsIgnoreCase("start"))
-				{
+				{;
 					SpoutStarter starter = new SpoutStarter(_machineIp);
 					starter.start();
 				}
