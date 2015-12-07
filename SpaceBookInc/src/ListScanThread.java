@@ -34,6 +34,8 @@ public class ListScanThread extends Thread {
 					//failure dected here 
 					System.out.println(" Failure detected on mechine ["+nodeId+"]");
 					Node._gossipMap.remove(nodeId);
+					
+					//Force start all the work from bolt
 					Node.forceReStartAll();
 				}
 				else if(record.getValue().isActive() & ((System.currentTimeMillis() - record.getValue().getLastRecordedTime()) >= Node._TfailInMilliSec))
