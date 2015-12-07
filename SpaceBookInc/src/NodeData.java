@@ -21,7 +21,7 @@ public class NodeData implements Serializable
 	private boolean isActive = true;
 	private String type ="None";
 	private boolean isListening = false;
-	private int applicationNum =0;
+	private int applicationNum = 0;
 	
 	public NodeData() 
 	{
@@ -43,6 +43,7 @@ public class NodeData implements Serializable
 		this.heartBeat = heartBeat;
 		this.lastRecordedTime = lastRecordedTime;
 		this.isActive = isActive;
+		this.applicationNum=0;
 	}
 
 	public String getNodeId() {
