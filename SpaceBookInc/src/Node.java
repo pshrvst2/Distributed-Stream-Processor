@@ -423,7 +423,7 @@ public class Node
 		System.out.println(" Clean up the old crane role for each bolt and drop all the current job....");
 		// need to wait for all the bolt clean up and drop work
 		try {
-            Thread.sleep(1500);
+            Thread.sleep(2500);
         }
         catch (InterruptedException ie) {
             // Handle the exception
@@ -434,7 +434,7 @@ public class Node
 		assigner.assignRole();
 		// wait for the bolt updated their role
 		try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         }
         catch (InterruptedException ie) {
             // Handle the exception
