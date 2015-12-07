@@ -241,12 +241,26 @@ public class Node
 				}	
 				else if(userCmd.equalsIgnoreCase("app1"))
 				{
+					if(_machineIp.equalsIgnoreCase(_introducerIp))
+					{
+						_gossipMap.get(_machineId).setApplicationNum(1);
+					}
+					else
+					{
+						System.out.println(" Sorry, you don't have to privilege to make this change.");
+					}
 					
-					_gossipMap.get(_machineId).setApplicationNum(1);
 				}
 				else if(userCmd.equalsIgnoreCase("app2"))
 				{
-					_gossipMap.get(_machineId).setApplicationNum(2);
+					if(_machineIp.equalsIgnoreCase(_introducerIp))
+					{
+						_gossipMap.get(_machineId).setApplicationNum(2);
+					}
+					else
+					{
+						System.out.println(" Sorry, you don't have to privilege to make this change.");
+					}
 				}
 				else if(userCmd.equalsIgnoreCase("assign"))
 				{
