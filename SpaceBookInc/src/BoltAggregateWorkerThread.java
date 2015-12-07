@@ -53,7 +53,7 @@ public class BoltAggregateWorkerThread extends Thread
 				PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 				String streamline ="";
 				
-				while(!Node._streamReadingStop)
+				while(!Node._streamReadingStop && !Node._faultToleranceStop)
 				{
 					if((streamline= Node._streamingList.poll()) != null)
 					{
@@ -66,14 +66,17 @@ public class BoltAggregateWorkerThread extends Thread
 				}
 				
 				//TODO use a for loop here to print out the result message. 
-				
-				
-				for (HashMap.Entry<String, Integer> record : Node._resultMap.entrySet())
+				if(Node._faultToleranceStop)
 				{
-					out.println("||| Key word : "+ record.getKey() + " | Counts: " + record.getValue()+" |||");
+					out.println(" Fault detected!! Force to stop and drop all the work!! ");
 				}
-				
-										
+				else
+				{
+					for (HashMap.Entry<String, Integer> record : Node._resultMap.entrySet())
+					{
+						out.println("||| Key word : "+ record.getKey() + " | Counts: " + record.getValue()+" |||");
+					}
+				}						
 				// send the job is done message to the introducer to notify it the job has been accomplished
 				out.println(Node._jobIsCompletedMsg);
 

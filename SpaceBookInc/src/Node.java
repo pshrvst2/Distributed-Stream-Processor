@@ -36,7 +36,7 @@ public class Node
 	public static Logger _logger = Logger.getLogger(Node.class);
 	public final static int _portSender = 2001;
 	public final static int _portReceiver = 2000;
-	public static String _introducerIp = "192.17.11.6";
+	public static String _introducerIp = "192.17.11.2";
 	public static boolean _listenerThreadStop = false;
 	public static String _machineIp = "";
 	public static String _machineId= "";
@@ -56,8 +56,8 @@ public class Node
 	public static long _startTime =0;
 	public static long _finishTime =0;
 	
-	
-	
+
+	public static boolean _faultToleranceStop =false;
 	public static boolean _craneRoleListenerThreadStop =false;
 	public final static String _craneRoleMessage = "New aggregator :";
 	public final static String _craneRoleResetMessage = "Rest the role.";
@@ -75,7 +75,7 @@ public class Node
 	final static String _resultFilePath = "/home/xchen135/result/";
 	final static String _streamFileName = "StreamingData.txt";
 	final static String _resultFileName = "Result";
-	//public static List<NodeData> _gossipList = Collections.synchronizedList(new ArrayList<NodeData>());
+
 	// Thread safe data structure needed to store the details of all the machines in the 
 	// Gossip group. Concurrent hashmap is our best option as it can store string, nodeData. 
 	public static ConcurrentHashMap<String, NodeData> _gossipMap = new ConcurrentHashMap<String, NodeData>();
@@ -172,6 +172,7 @@ public class Node
 				System.out.println("Type 'info' to know your machine details");
 				System.out.println("Type 'assign' to assign the crane role to each memeber");
 				System.out.println("Type 'start' to start the crane. ");
+				System.out.println("Type 'force' to force the system to restart the work.");
 				
 				
 				BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -242,6 +243,12 @@ public class Node
 					SpoutStarter starter = new SpoutStarter(_machineIp);
 					starter.start();
 				}
+				else if(userCmd.equalsIgnoreCase("force"))
+				{
+					//TODO implement the force shut down and restart logic here
+					forceReStartAll();
+				}
+				
 			}
 		} 
 		catch (UnknownHostException e) 
@@ -349,6 +356,59 @@ public class Node
 				socket.close();
 			_logger.info("Exiting from the method checkIntroducer.");
 		}
+	}
+	
+	
+	/*
+	 * 
+	 * Method that
+	 *    1.force the system drop all the current job at all the vm  
+	 *    2.spout send a re assign role message to all the bolt to make them mark their role as None
+	 *    3.spout assign a new role to all the vm based on the current/new memeberlist
+	 *    4.start the work
+	 */
+	
+	public static void forceReStartAll()
+	{
+		//1. stop all the reading work or sending to bolt from the spout side
+		Node._faultToleranceStop = true;
+		System.out.println(" Failure detected, try to stop the work....");
+		// need to wait just in case the spout still reading stream or sending out stream.
+		try {
+            Thread.sleep(1000);
+        }
+        catch (InterruptedException ie) {
+            // Handle the exception
+        }
+		
+		//2. send the re asssign message to all the vm and force them clean up their role and if there is any work still taking place, force to drop.
+		JobDoneListenerThread.resetCraneRole();
+		System.out.println(" Clean up the old crane role for each bolt and drop all the current job....");
+		// need to wait for all the bolt clean up and drop work
+		try {
+            Thread.sleep(1000);
+        }
+        catch (InterruptedException ie) {
+            // Handle the exception
+        }
+		
+		//3. Assign the new crane role to all the vms which r still alive. 
+		CraneRoleAssigner assigner = new CraneRoleAssigner(_machineIp);
+		assigner.assignRole();
+		// wait for the bolt updated their role
+		try {
+            Thread.sleep(2000);
+        }
+        catch (InterruptedException ie) {
+            // Handle the exception
+        }
+		System.out.println(" Assigning new roles for each bolts.....");
+		
+		
+		//4. start work
+		System.out.println(" Starting the work again ......");
+		SpoutStarter starter = new SpoutStarter(_machineIp);
+		starter.start();
 	}
 
 }

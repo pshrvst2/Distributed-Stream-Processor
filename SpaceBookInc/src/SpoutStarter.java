@@ -40,11 +40,17 @@ public class SpoutStarter
 				Node._startTime = new Date().getTime();
 				
 				// check whether the stream list elements have all been distributed by the sport worker 				
-				while (Node._streamingList.size()!=0)
+				while (Node._streamingList.size()!=0 && !Node._faultToleranceStop)
 				{
 					//_logger.info("There are still "+Node._streamingList.size()+" has been waiting for distrubted....");
 				}
+				
 				Node._streamReadingStop = true;
+				
+				//need a gate keeper here to clean up the concurrent list in case we use the _faultToleranceStop flag to shut down the system
+				Node._streamingList.clear();
+				
+				
 				System.out.println("Stream concurrent list is empty now, all the message should have been sent out ");
 			}
 			
@@ -97,11 +103,13 @@ public class SpoutStarter
 			FileReader fileReader = new FileReader(Node._streamFilePath+Node._streamFileName);
 			BufferedReader bufReader = new BufferedReader(fileReader);
 			String line = null;
-			while((line = bufReader.readLine()) != null)
+			while((line = bufReader.readLine()) != null && !Node._faultToleranceStop)
 			{
 				Node._streamingList.add(line);	
 			}
 			bufReader.close();
+			
+			
 		} 
 		catch (FileNotFoundException e) 
 		{

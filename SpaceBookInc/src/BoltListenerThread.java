@@ -48,8 +48,9 @@ public class BoltListenerThread extends Thread
 			}
 			_logger.info("Filter counts : "+ filterCounts);
 			System.out.println(" They system has "+filterCounts + " Filter bolt! ");
-			// TODO: may not need a while loop 
-			while((message = reader.readLine())!=null )
+			
+			// implement the force break logic by adding the flage: _faultToleranceStop
+			while((message = reader.readLine())!=null && !Node._faultToleranceStop)
 			{
 				// receive stream message from spout. stop the worker for writing the stream into the concurrent list
 				if(message.equals(Node._streammingStopMsg))
@@ -87,12 +88,17 @@ public class BoltListenerThread extends Thread
 			}
 			
 			//turn off the filter sending thread or aggregate bolt worker, since the job are all done here!  
-			while (Node._streamingList.size()!=0)
+			while (Node._streamingList.size()!=0 && !Node._faultToleranceStop)
 			{
 				_logger.info("There are still "+Node._streamingList.size()+" has been waiting for distrubted....");
 			}
 			Node._streamReadingStop = true;
+			
+			//need a gate keeper here to clean up the concurrent list in case we use the _faultToleranceStop flag to shut down the system
+			Node._streamingList.clear();
+			
 			_logger.info("!!!!!!!!!!!!!!!!!!!!_streamReadingStop");
+			System.out.println("BoltListener Thread done!");
 			// TODO do we need to update something here
 			pw.close();
 			reader.close();
@@ -103,6 +109,12 @@ public class BoltListenerThread extends Thread
 		catch (IOException e) {
 			// TODO Auto-generated catch block
 			//e.printStackTrace();
+			try {
+				clientSocket.close();
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 		}
 	}
 

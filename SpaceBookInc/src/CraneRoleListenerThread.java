@@ -40,13 +40,20 @@ public class CraneRoleListenerThread extends Thread
 			}
 			else if(message.contains(Node._craneRoleMessage))
 			{
+				// we need to turn the flag off when we receive a new role, just make sure worker can work
+				// this is for the bolt
+				Node._faultToleranceStop=false;
+				
 				String aggrId = message.substring(message.indexOf("[")+1, message.indexOf("]"));
 				
 				UpdateCraneRoleforLocal(aggrId);
 				
+				
+				
 				if(Node._machineId.equalsIgnoreCase(aggrId))
 				{
 					
+					//Node._streamReadingStop=false;
 					
 					// start to listen to the filter bolts
 					Thread BoltListener = new BoltListener();
@@ -103,6 +110,11 @@ public class CraneRoleListenerThread extends Thread
 				// TODO should be able to remove this, since we set this flag when they start to listen the role
 				Node._jobIsCompleted = false;
 				Node._streamReadingStop = false;
+				
+				// To stop all the job if we receive the role re assign message. TODO: make sure we will turn this on whenever the new role established 
+				Node._faultToleranceStop = true;
+				// this set of flags use to force any reading thread or sending thread come out of the while loop and end the process 
+				
 				
 			}
 			

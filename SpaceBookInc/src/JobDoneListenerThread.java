@@ -37,7 +37,7 @@ public class JobDoneListenerThread extends Thread
 			boolean resultTitleDisplay = false;
 			String message = "";
 			BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-			while((message = reader.readLine())!=null )
+			while((message = reader.readLine())!=null && !Node._faultToleranceStop)
 			{
 				// receive stream message from spout. stop the worker for writing the stream into the concurrent list
 				
@@ -61,6 +61,13 @@ public class JobDoneListenerThread extends Thread
 				}
 			}
 			Node._finishTime =new Date().getTime();
+			
+			if(Node._faultToleranceStop)
+			{
+				System.out.println("***********************************************************");
+				System.out.println(" Failure detected, Force to re-assign role and start the job all over again!  ");
+			}
+			
 			long diff = Node._finishTime - Node._startTime;
 			System.out.println(" The total time used for the tasked is : "+ diff + " ms");
 			System.out.println("***********************************************************");

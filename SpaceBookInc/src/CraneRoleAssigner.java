@@ -20,6 +20,9 @@ public class CraneRoleAssigner {
 			
 			// reset the flag as flase
 			Node._streamReadingStop = false;
+			// reset the flag as true 
+			// this is for spout side
+			Node._faultToleranceStop = false;
 			
 			// TODO change this logic later, make it more generic 
 			if(serverCounts >2)
