@@ -36,7 +36,7 @@ public class Node
 	public static Logger _logger = Logger.getLogger(Node.class);
 	public final static int _portSender = 2001;
 	public final static int _portReceiver = 2000;
-	public static String _introducerIp = "192.17.11.2";
+	public static String _introducerIp = "192.17.11.4";
 	public static boolean _listenerThreadStop = false;
 	public static String _machineIp = "";
 	public static String _machineId= "";
@@ -76,7 +76,7 @@ public class Node
 	final static String _resultFilePath = "/home/xchen135/result/";
 	final static String _1_FilterAggrFileName = "StreamingData.txt";
 	final static String _resultFileName = "Result";
-	final static String _2_WordCountFileName = "StreamingData.txt";
+	final static String _2_WordCountFileName = "websitesData.txt";
 
 	// Thread safe data structure needed to store the details of all the machines in the 
 	// Gossip group. Concurrent hashmap is our best option as it can store string, nodeData. 
