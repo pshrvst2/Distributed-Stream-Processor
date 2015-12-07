@@ -35,12 +35,17 @@ public class ListScanThread extends Thread {
 					System.out.println(" Failure detected on mechine ["+nodeId+"]");
 					Node._gossipMap.remove(nodeId);
 					
-					//Force start all the work from bolt
-					if(!Node._forceAllStopFlag)
+					// force re-start should only take care by the introducer
+					if(Node._machineIp.equals(Node._introducerIp))
 					{
-						Node._forceAllStopFlag = true;
-						Node.forceReStartAll();
-					}					
+						//Force start all the work from bolt
+						if(!Node._forceAllStopFlag)
+						{
+							Node._forceAllStopFlag = true;
+							Node.forceReStartAll();
+						}	
+					}
+									
 				}
 				else if(record.getValue().isActive() & ((System.currentTimeMillis() - record.getValue().getLastRecordedTime()) >= Node._TfailInMilliSec))
 				{
