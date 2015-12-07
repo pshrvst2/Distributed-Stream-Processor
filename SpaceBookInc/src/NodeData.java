@@ -94,7 +94,7 @@ public class NodeData implements Serializable
 	}
 	public int getApplicationNum()
 	{
-		return this.applicationNum;
+		return applicationNum;
 	}
 	
 }
