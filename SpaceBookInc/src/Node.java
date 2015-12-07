@@ -243,7 +243,11 @@ public class Node
 				{
 					if(_machineIp.equalsIgnoreCase(_introducerIp))
 					{
-						_gossipMap.get(_machineId).setApplicationNum(1);
+						HashMap<String, NodeData> map = new HashMap<String, NodeData>();
+					    for (HashMap.Entry<String, NodeData> record : _gossipMap.entrySet())
+						{
+					    	record.getValue().setApplicationNum(1);
+						}
 					}
 					else
 					{
@@ -255,7 +259,11 @@ public class Node
 				{
 					if(_machineIp.equalsIgnoreCase(_introducerIp))
 					{
-						_gossipMap.get(_machineId).setApplicationNum(2);
+						HashMap<String, NodeData> map = new HashMap<String, NodeData>();
+					    for (HashMap.Entry<String, NodeData> record : _gossipMap.entrySet())
+						{
+					    	record.getValue().setApplicationNum(2);
+						}
 					}
 					else
 					{

@@ -81,7 +81,7 @@ public class BoltAggregateWorkerThread extends Thread
 				}						
 				// send the job is done message to the introducer to notify it the job has been accomplished
 				out.println(Node._jobIsCompletedMsg);
-
+				Node._resultMap.clear();
 				out.close();
 				in.close();
 				socket.close();		
@@ -102,8 +102,7 @@ public class BoltAggregateWorkerThread extends Thread
 	
 	public void aggregatorApplication(String s)
 	{
-		// clean up whatever we have before
-		Node._resultMap.clear();
+
 		String sentences[] = s.split(Node._sDel);
 		
 		for(String eachWCPair : sentences)
