@@ -57,6 +57,7 @@ public class Node
 	public static long _finishTime =0;
 	
 
+	public static boolean _forceAllStopFlag = false;
 	public static boolean _faultToleranceStop =false;
 	public static boolean _craneRoleListenerThreadStop =false;
 	public final static String _craneRoleMessage = "New aggregator :";
@@ -386,7 +387,7 @@ public class Node
 		System.out.println(" Clean up the old crane role for each bolt and drop all the current job....");
 		// need to wait for all the bolt clean up and drop work
 		try {
-            Thread.sleep(1000);
+            Thread.sleep(1500);
         }
         catch (InterruptedException ie) {
             // Handle the exception
@@ -409,6 +410,8 @@ public class Node
 		System.out.println(" Starting the work again ......");
 		SpoutStarter starter = new SpoutStarter(_machineIp);
 		starter.start();
+		
+		_forceAllStopFlag=false;
 	}
 
 }

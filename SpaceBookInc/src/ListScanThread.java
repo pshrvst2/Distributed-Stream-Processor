@@ -36,7 +36,11 @@ public class ListScanThread extends Thread {
 					Node._gossipMap.remove(nodeId);
 					
 					//Force start all the work from bolt
-					Node.forceReStartAll();
+					if(!Node._forceAllStopFlag)
+					{
+						Node._forceAllStopFlag = true;
+						Node.forceReStartAll();
+					}					
 				}
 				else if(record.getValue().isActive() & ((System.currentTimeMillis() - record.getValue().getLastRecordedTime()) >= Node._TfailInMilliSec))
 				{
